@@ -1,23 +1,38 @@
 TCTA
 v7
 r0
-t322732407.914133
+t325443006.305344
 cCheck dependencies
 cProcessInfoPlistFile /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/Info.plist CTA-Info.plist
 cCompileXIB /Users/vijaykokatnur/iPhone-Lessons/CTA/MainWindow.xib
-cCompileXIB /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.xib
 cCompileXIB /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/BusLookUpViewController.xib
-cCompileXIB /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/AllStopsViewController.xib
+cCompileXIB /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopsViewController.xib
+cCompileXIB /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/PredictionCellView.xib
+cCompileXIB /Users/vijaykokatnur/iPhone-Lessons/CTA/StopDetailHeader.xib
+cCpResource build/Debug-iphonesimulator/CTA.app/2009_01_01_CTA.jpg 2009_01_01_CTA.jpg
+cCompileXIB /Users/vijaykokatnur/iPhone-Lessons/CTA/MyStopTableView.xib
+cCpResource build/Debug-iphonesimulator/CTA.app/plus.png ../../Downloads/plus.png
+cCpResource build/Debug-iphonesimulator/CTA.app/gnome_view_refresh.png ../../Downloads/gnome_view_refresh.png
 cProcessPCH /var/folders/6f/6fDQKOgjGYe2Nck9bDy3uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CTA_Prefix-cxgwapfnvmtcvsfhtdhzqthedkcy/CTA_Prefix.pch.gch CTA_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cDataModelVersionCompile /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/CTA.momd /Users/vijaykokatnur/iPhone-Lessons/CTA/CTA.xcdatamodeld
 cCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/main.o /Users/vijaykokatnur/iPhone-Lessons/CTA/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/CTAAppDelegate.o /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/CTAAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/MyStopViewController.o /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/BusLookUpViewController.o /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/BusLookUpViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/AllStopsViewController.o /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/AllStopsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/NSDataAdditions.o /Users/vijaykokatnur/iPhone-Lessons/CTA/NSDataAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/TBXML.o /Users/vijaykokatnur/iPhone-Lessons/CTA/TBXML.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/CTAWebService.o /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/CTAWebService.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/BusPrediction.o /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/BusPrediction.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/StopDetailViewController.o /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopDetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/AllRoutesViewController.o /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/AllRoutesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/StopDetail.o /Users/vijaykokatnur/iPhone-Lessons/CTA/StopDetail.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/MyStopViewController.o /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/ScheduleError.o /Users/vijaykokatnur/iPhone-Lessons/CTA/ScheduleError.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/MyStop.o /Users/vijaykokatnur/iPhone-Lessons/CTA/MyStop.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/Stops.o /Users/vijaykokatnur/iPhone-Lessons/CTA/Stops.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/Route.o /Users/vijaykokatnur/iPhone-Lessons/CTA/Route.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/Direction.o /Users/vijaykokatnur/iPhone-Lessons/CTA/Direction.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/Master.o /Users/vijaykokatnur/iPhone-Lessons/CTA/Master.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cLd /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/CTA normal i386
 cGenerateDSYMFile /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app.dSYM /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/CTA
 cTouch /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app
@@ -77,10 +92,59 @@ c000000004AD4F6ED0000000000005D2C
 t1255470829
 s23852
 
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/../../Downloads/gnome_view_refresh.png
+c000000004DB4746E000000000000147C
+t1303671918
+s5244
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/../../Downloads/plus.png
+c000000004DB47380000000000000555E
+t1303671680
+s21854
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/1303186742_gtk-refresh.png
+c000000004DAD0D360000000000000580
+t1303186742
+s1408
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/2009_01_01_CTA.jpg
+c000000004DAD185400000000000187F4
+t1303189588
+s100340
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/AllStopsController.xib
+c000000004D927FDB0000000000001643
+t1301446619
+s5699
+
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/CTA.xcdatamodeld
-c000000004D8C1BD70000000000000088
-t1301027799
+c000000004DB4F1300000000000000088
+t1303703856
 s136
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/CTA.xcdatamodeld/Direction.h
+c000000004DB488ED0000000000000107
+t1303677165
+s263
+i<CoreData/CoreData.h>
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/CTA.xcdatamodeld/Direction.m
+c000000004DB488ED00000000000000CA
+t1303677165
+s202
+i"Direction.h"
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/CTA.xcdatamodeld/Master.h
+c000000004DB491CE0000000000000169
+t1303679438
+s361
+i<CoreData/CoreData.h>
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/CTA.xcdatamodeld/Master.m
+c000000004DB491CE00000000000000EB
+t1303679438
+s235
+i"Master.h"
 
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/CTAServiceConstants.m
 c000000004D8C473D00000000000000B2
@@ -96,52 +160,88 @@ i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 i<CoreData/CoreData.h>
 
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/AllRoutesViewController.h
+c000000004DB4ABE20000000000000207
+t1303686114
+s519
+i<UIKit/UIKit.h>
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/AllRoutesViewController.m
+c000000004DB5A63B0000000000000C88
+t1303750203
+s3208
+i"AllRoutesViewController.h"
+i"CTAWebService.h"
+i"AllStopsViewController.h"
+i"Route.h"
+i"Direction.h"
+
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/AllStopsViewController.h
-c000000004D8C1A9800000000000000E2
-t1301027480
-s226
+c000000004DACF68500000000000002E7
+t1303180933
+s743
 i<UIKit/UIKit.h>
 
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/AllStopsViewController.m
-c000000004D8C1A9800000000000005A0
-t1301027480
-s1440
+c000000004DB35F780000000000000CF7
+t1303601016
+s3319
 i"AllStopsViewController.h"
+i"CTAWebService.h"
+i"StopDetailViewController.h"
+i"StopDetail.h"
 
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/AllStopsViewController.xib
-c000000004D8C1A98000000000000187D
-t1301027480
-s6269
+c000000004D915B7F0000000000004F7C
+t1301371775
+s20348
 
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/BusLookUpViewController.h
-c000000004D8C2BB500000000000002DF
-t1301031861
-s735
+c000000004DB35CF80000000000000266
+t1303600376
+s614
 i<UIKit/UIKit.h>
 
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/BusLookUpViewController.m
-c000000004D8C42D10000000000000779
-t1301037777
-s1913
+c000000004DB35D190000000000000A79
+t1303600409
+s2681
 i"BusLookUpViewController.h"
+i"AllStopsViewController.h"
+i"CTAWebService.h"
+i"AllRoutesViewController.h"
 
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/BusLookUpViewController.xib
-c000000004D8C35B4000000000000618E
-t1301034420
-s24974
+c000000004DB3212D0000000000006A6D
+t1303585069
+s27245
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/BusPrediction.h
+c000000004DABC9910000000000000301
+t1303103889
+s769
+i<Foundation/Foundation.h>
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/BusPrediction.m
+c000000004DABC980000000000000017B
+t1303103872
+s379
+i"BusPrediction.h"
 
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/CTAAppDelegate.h
-c000000004D8C0D0000000000000003A7
-t1301024000
-s935
+c000000004DB4B18B00000000000004E5
+t1303687563
+s1253
 i<UIKit/UIKit.h>
 i<CoreData/CoreData.h>
+i"BusLookUpViewController.h"
 
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/CTAAppDelegate.m
-c000000004D8C0F590000000000001DB0
-t1301024601
-s7600
+c000000004DB4B258000000000000264C
+t1303687768
+s9804
 i"CTAAppDelegate.h"
+i"Master.h"
 
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/CTAServiceConstants.h
 c000000004D8C476A00000000000000DE
@@ -155,17 +255,38 @@ t1301038954
 s209
 i"CTAServiceConstants.h"
 
-N/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/CTAWebService.h
-c000000004D8C49E600000000000000F0
-t1301039590
-s240
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/CTAVariableStore.h
+c000000004D917A3C0000000000000191
+t1301379644
+s401
 i<Foundation/Foundation.h>
 
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/CTAVariableStore.m
+c000000004D917A460000000000000191
+t1301379654
+s401
+i"CTAVariableStore.h"
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/CTAWebService.h
+c000000004DB4E2DD00000000000004E4
+t1303700189
+s1252
+i<Foundation/Foundation.h>
+i"Route.h"
+
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/CTAWebService.m
-c000000004D8C49F400000000000000E0
-t1301039604
-s224
+c000000004DB505FB0000000000002B6B
+t1303709179
+s11115
 i"CTAWebService.h"
+i"TBXML.h"
+i"CTAAppDelegate.h"
+i"BusPrediction.h"
+i"ScheduleError.h"
+i"CTAAppDelegate.h"
+i"Master.h"
+i"Route.h"
+i"Direction.h"
 
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/FirstViewController.h
 c00000000000000000000000000000000
@@ -178,31 +299,152 @@ t2
 s0
 
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.h
-c000000004D8C0C3F00000000000000DA
-t1301023807
-s218
+c000000004DB36F9400000000000002E6
+t1303605140
+s742
 i<UIKit/UIKit.h>
 
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.m
-c000000004D8C0C430000000000000596
-t1301023811
-s1430
+c000000004DB493060000000000001EB6
+t1303679750
+s7862
 i"MyStopViewController.h"
+i"MyStop.h"
+i"CTAAppDelegate.h"
+i"StopDetailViewController.h"
+i"StopDetail.h"
 
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.xib
 c000000004D8C0BCD0000000000001877
 t1301023693
 s6263
 
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/PredictionCellView.xib
+c000000004DB334C2000000000000625A
+t1303590082
+s25178
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopDetailViewController.h
+c000000004DB35CE500000000000002F1
+t1303600357
+s753
+i<UIKit/UIKit.h>
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopDetailViewController.m
+c000000004DB492E70000000000000E76
+t1303679719
+s3702
+i"StopDetailViewController.h"
+i"CTAWebService.h"
+i"BusPrediction.h"
+i"MyStop.h"
+i"StopDetail.h"
+i"CTAAppDelegate.h"
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopDetailViewController.xib
+c000000004DAB8C550000000000005C8A
+t1303088213
+s23690
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopViewController.h
+c000000004D8FC0780000000000000175
+t1301266552
+s373
+i<Foundation/Foundation.h>
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopViewController.m
+c000000004D8FC5190000000000000783
+t1301267737
+s1923
+i"StopViewController.h"
+i"CTAVariableStore.h"
+i"CTAWebService.h"
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopsViewController.h
+c000000004D928127000000000000018D
+t1301446951
+s397
+i<UIKit/UIKit.h>
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopsViewController.m
+c000000004D9281710000000000000A87
+t1301447025
+s2695
+i"StopsViewController.h"
+i"CTAWebService.h"
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopsViewController.xib
+c000000004DB334540000000000003124
+t1303589972
+s12580
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/Test.h
+c000000004DAB99F700000000000000BD
+t1303091703
+s189
+i<UIKit/UIKit.h>
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/Test.m
+c000000004DAB99F7000000000000025F
+t1303091703
+s607
+i"Test.h"
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/Direction.h
+c000000004DB4F13E0000000000000102
+t1303703870
+s258
+i<CoreData/CoreData.h>
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/Direction.m
+c000000004DB4F13600000000000000C6
+t1303703862
+s198
+i"Direction.h"
+
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/FirstView.xib
 c00000000000000000000000000000000
 t2
 s0
 
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/Icon_l.png
+c000000004DAD0C58000000000000CDFB
+t1303186520
+s52731
+
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/MainWindow.xib
-c000000004D8C0F2200000000000064C7
-t1301024546
-s25799
+c000000004DB48B83000000000000960F
+t1303677827
+s38415
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/Master.h
+c000000004DB4A20F0000000000000169
+t1303683599
+s361
+i<CoreData/CoreData.h>
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/Master.m
+c000000004DB491CE00000000000000EB
+t1303679438
+s235
+i"Master.h"
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/MyStop.h
+c000000004DB488290000000000000202
+t1303676969
+s514
+i<CoreData/CoreData.h>
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/MyStop.m
+c000000004DB4882900000000000000CB
+t1303676969
+s203
+i"MyStop.h"
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/MyStopTableView.xib
+c000000004DB3746C00000000000052B4
+t1303606380
+s21172
 
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/NSDataAdditions.h
 c000000004BF3E1060000000000000A67
@@ -217,10 +459,83 @@ s9710
 i"NSDataAdditions.h"
 i<zlib.h>
 
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/Route.h
+c000000004DB4A2940000000000000329
+t1303683732
+s809
+i<CoreData/CoreData.h>
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/Route.m
+c000000004DB4A298000000000000011C
+t1303683736
+s284
+i"Route.h"
+i"Direction.h"
+i"Stops.h"
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/ScheduleError.h
+c000000004DB479D60000000000000167
+t1303673302
+s359
+i<Foundation/Foundation.h>
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/ScheduleError.m
+c000000004DB479CE00000000000000ED
+t1303673294
+s237
+i"ScheduleError.h"
+
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/SecondView.xib
 c00000000000000000000000000000000
 t2
 s0
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/Stop.h
+c000000004DB339AA00000000000000C9
+t1303591338
+s201
+i<Foundation/Foundation.h>
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/Stop.m
+c000000004DB339A300000000000000A4
+t1303591331
+s164
+i"Stop.h"
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/StopDetail.h
+c000000004DB35FE0000000000000018C
+t1303601120
+s396
+i<Foundation/Foundation.h>
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/StopDetail.m
+c000000004DB34AEC00000000000000E9
+t1303595756
+s233
+i"StopDetail.h"
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/StopDetailHeader.xib
+c000000004DB4753200000000000060AA
+t1303672114
+s24746
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/StopViewController.xib
+c000000004D8FCA130000000000003AD2
+t1301269011
+s15058
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/Stops.h
+c000000004DB48A7F0000000000000282
+t1303677567
+s642
+i<CoreData/CoreData.h>
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/Stops.m
+c000000004DB488290000000000000108
+t1303676969
+s264
+i"Stops.h"
+i"Direction.h"
 
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/TBXML.h
 c000000004BF3E10600000000000012D1
@@ -234,76 +549,160 @@ s18138
 i"TBXML.h"
 i"NSDataAdditions.h"
 
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/AllRoutesViewController.o
+t1303750204
+s61868
+
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/AllStopsViewController.o
-t1301027523
-s34620
+t1303700190
+s57544
 
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/BusLookUpViewController.o
-t1301038705
-s49720
+t1303700190
+s53820
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/BusPrediction.o
+t1303187339
+s14592
 
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/CTA.LinkFileList
-c000000004D8C47D700000000000003EC
-t1301039063
-s1004
+c000000004DB492C400000000000008B4
+t1303679684
+s2228
 
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/CTAAppDelegate.o
-t1301024603
-s61100
+t1303687769
+s73032
 
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/CTAServiceConstants.o
 t1301038911
 s5036
 
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/CTAVariableStore.o
+t1301379723
+s9212
+
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/CTAWebService.o
-t1301039607
-s5716
+t1303709180
+s81832
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/Direction-E8D32368D9E1BD7F.o
+t2
+s0
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/Direction.o
+t1303703871
+s5196
 
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/FirstViewController.o
 t2
 s0
 
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/Master.o
+t1303683609
+s5260
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/MyStop-6CDA6C014017D7B.o
+t2
+s0
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/MyStop.o
+t1303679685
+s5216
+
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/MyStopViewController.o
-t1301024562
-s34580
+t1303687564
+s69956
 
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/NSDataAdditions.o
-t1301038705
+t1303187338
 s17540
 
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/Route.o
+t1303703871
+s5276
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/ScheduleError.o
+t1303673303
+s9048
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/Stop.o
+t2
+s0
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/StopDetail.o
+t1303601122
+s10052
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/StopDetailViewController.o
+t1303700190
+s70412
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/StopViewController.o
+t1301267739
+s43472
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/Stops.o
+t1303703871
+s5312
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/StopsViewController.o
+t1301447026
+s48180
+
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/TBXML.o
-t1301038705
+t1303187339
 s37168
 
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/Test.o
+t2
+s0
+
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/main.o
-t1301024562
+t1303187338
 s6304
 
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app
-t1301039607
-s340
+t1303750204
+s748
 
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app.dSYM
-t1301039607
+t1303750204
 s102
 
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/1303186742_gtk-refresh.png
+t2
+s0
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/2009_01_01_CTA.jpg
+t1303191834
+s100340
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/AllStopsController.nib
+t2
+s0
+
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/AllStopsViewController.nib
-t1301027523
-s764
+t1301372088
+s1603
 
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/BusLookUpViewController.nib
-t1301034468
-s2005
+t1303585207
+s2690
 
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/CTA
-t1301039607
-s55644
+t1303750204
+s117944
 
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/CTA.momd
-t1301027838
+t1303703871
 s136
 
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/FirstView.nib
+t2
+s0
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/Icon_l.png
 t2
 s0
 
@@ -312,8 +711,12 @@ t1301022871
 s575
 
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/MainWindow.nib
-t1301024559
-s1679
+t1303679684
+s2265
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/MyStopTableView.nib
+t1303606385
+s1774
 
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/MyStopViewController.nib
 t1301024559
@@ -323,15 +726,79 @@ N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/Pkg
 t1301022871
 s8
 
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/PredictionCellView.nib
+t1303590090
+s2059
+
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/SecondView.nib
 t2
 s0
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/StopDetailHeader.nib
+t1303672641
+s2106
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/StopDetailViewController.nib
+t1303088373
+s2153
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/StopViewController.nib
+t1301269080
+s764
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/StopsViewController.nib
+t1303589981
+s1071
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/cta_oldtime.jpg
+t1303190375
+s35877
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/gnome_view_refresh.png
+t1303672640
+s5244
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/map-to-5406_cta.jpg
+t1303191834
+s58392
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/plus.png
+t1303672640
+s21854
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/public-transportation.jpg
+t2
+s0
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/refresh.png
+t1303187337
+s1408
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/cta_oldtime.jpg
+c000000004DAD17E70000000000008C25
+t1303189479
+s35877
 
 N/Users/vijaykokatnur/iPhone-Lessons/CTA/main.m
 c000000004D8C0C900000000000000157
 t1301023888
 s343
 i<UIKit/UIKit.h>
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/map-to-5406_cta.jpg
+c000000004DAD1931000000000000E418
+t1303189809
+s58392
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/public-transportation.jpg
+c000000004DAD1A3D000000000000D187
+t1303190077
+s53639
+
+N/Users/vijaykokatnur/iPhone-Lessons/CTA/refresh.png
+c000000004DAD0D360000000000000580
+t1303186742
+s1408
 
 N/var/folders/6f/6fDQKOgjGYe2Nck9bDy3uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CTA_Prefix-bqxopkffzkojqnamoallbfbdmqfz/CTA_Prefix.pch.gch
 t1301022873
@@ -348,11 +815,24 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies322732407#322732407#0(0"0(0#1#0"8630819488#0"0#
+lSLF07#2@18"Check dependencies325443006#325443006#0(0"0(0#1#0"8600477632#0"0#
+
+CCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/AllRoutesViewController.o /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/AllRoutesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325443003.870977
+e325443004.062100
+r1
+xCompileC
+xbuild/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/AllRoutesViewController.o
+x/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/AllRoutesViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/AllRoutesViewController.m325443003#325443004#0(0"0(0#0#73"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/AllRoutesViewController.m8616068512#1878"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-generated-files.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-own-target-headers.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-all-target-headers.hmap -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-project-headers.hmap -F/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/include -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources/i386 -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources -include /var/folders/6f/6fDQKOgjGYe2Nck9bDy3uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CTA_Prefix-cxgwapfnvmtcvsfhtdhzqthedkcy/CTA_Prefix.pch -c /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/AllRoutesViewController.m -o /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/AllRoutesViewController.o0#
 
 CCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/AllStopsViewController.o /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/AllStopsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s322720323.574299
-e322720323.655196
+s325392990.545413
+e325392990.690282
 r1
 xCompileC
 xbuild/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/AllStopsViewController.o
@@ -361,11 +841,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/AllStopsViewController.m322720323#322720323#0(0"0(0#0#72"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/AllStopsViewController.m8615337088#1876"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-generated-files.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-own-target-headers.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-all-target-headers.hmap -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-project-headers.hmap -F/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/include -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources/i386 -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources -include /var/folders/6f/6fDQKOgjGYe2Nck9bDy3uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CTA_Prefix-cxgwapfnvmtcvsfhtdhzqthedkcy/CTA_Prefix.pch -c /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/AllStopsViewController.m -o /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/AllStopsViewController.o0#
+lSLF07#2@80"Compile /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/AllStopsViewController.m325392990#325392990#0(0"0(0#0#72"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/AllStopsViewController.m8621831552#1876"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-generated-files.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-own-target-headers.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-all-target-headers.hmap -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-project-headers.hmap -F/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/include -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources/i386 -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources -include /var/folders/6f/6fDQKOgjGYe2Nck9bDy3uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CTA_Prefix-cxgwapfnvmtcvsfhtdhzqthedkcy/CTA_Prefix.pch -c /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/AllStopsViewController.m -o /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/AllStopsViewController.o0#
 
 CCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/BusLookUpViewController.o /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/BusLookUpViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s322731505.371129
-e322731505.599117
+s325392990.544115
+e325392990.672184
 r1
 xCompileC
 xbuild/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/BusLookUpViewController.o
@@ -374,11 +854,26 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@81"Compile /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/BusLookUpViewController.m322731505#322731505#0(0"0(0#0#73"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/BusLookUpViewController.m7809643567100341248#1878"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-generated-files.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-own-target-headers.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-all-target-headers.hmap -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-project-headers.hmap -F/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/include -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources/i386 -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources -include /var/folders/6f/6fDQKOgjGYe2Nck9bDy3uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CTA_Prefix-cxgwapfnvmtcvsfhtdhzqthedkcy/CTA_Prefix.pch -c /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/BusLookUpViewController.m -o /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/BusLookUpViewController.o0#
+o/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/BusLookUpViewController.m: In function '-[BusLookUpViewController findStopsForKnownRoute]':
+o/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/BusLookUpViewController.m:24: warning: incompatible Objective-C types 'struct NSString *', expected 'struct Route *' when passing argument 1 of 'busDirectionForRoute:' from distinct Objective-C type
+lSLF07#2@81"Compile /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/BusLookUpViewController.m325392990#325392990#0(387"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/BusLookUpViewController.m: In function '-[BusLookUpViewController findStopsForKnownRoute]':/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/BusLookUpViewController.m:24: warning: incompatible Objective-C types 'struct NSString *', expected 'struct Route *' when passing argument 1 of 'busDirectionForRoute:' from distinct Objective-C type1(22@159"Incompatible Objective-C types 'struct NSString *', expected 'struct Route *' when passing argument 1 of 'busDirectionForRoute:' from distinct Objective-C type325392990#140#247#0(6@73"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/BusLookUpViewController.m325293209#24#0#24#0#0"0(0#0#73"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/BusLookUpViewController.m8621872576#1878"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-generated-files.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-own-target-headers.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-all-target-headers.hmap -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-project-headers.hmap -F/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/include -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources/i386 -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources -include /var/folders/6f/6fDQKOgjGYe2Nck9bDy3uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CTA_Prefix-cxgwapfnvmtcvsfhtdhzqthedkcy/CTA_Prefix.pch -c /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/BusLookUpViewController.m -o /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/BusLookUpViewController.o0#
+
+CCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/BusPrediction.o /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/BusPrediction.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s324880139.011151
+e324880139.195556
+r1
+xCompileC
+xbuild/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/BusPrediction.o
+x/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/BusPrediction.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/BusPrediction.m324880139#324880139#0(0"0(0#0#63"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/BusPrediction.m8624751136#1858"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-generated-files.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-own-target-headers.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-all-target-headers.hmap -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-project-headers.hmap -F/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/include -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources/i386 -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources -include /var/folders/6f/6fDQKOgjGYe2Nck9bDy3uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CTA_Prefix-cxgwapfnvmtcvsfhtdhzqthedkcy/CTA_Prefix.pch -c /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/BusPrediction.m -o /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/BusPrediction.o0#
 
 CCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/CTAAppDelegate.o /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/CTAAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s322717403.471921
-e322717403.677690
+s325380568.843148
+e325380569.079248
 r1
 xCompileC
 xbuild/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/CTAAppDelegate.o
@@ -387,7 +882,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@72"Compile /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/CTAAppDelegate.m322717403#322717403#0(0"0(0#0#64"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/CTAAppDelegate.m8617121184#1860"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-generated-files.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-own-target-headers.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-all-target-headers.hmap -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-project-headers.hmap -F/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/include -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources/i386 -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources -include /var/folders/6f/6fDQKOgjGYe2Nck9bDy3uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CTA_Prefix-cxgwapfnvmtcvsfhtdhzqthedkcy/CTA_Prefix.pch -c /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/CTAAppDelegate.m -o /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/CTAAppDelegate.o0#
+lSLF07#2@72"Compile /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/CTAAppDelegate.m325380568#325380569#0(0"0(0#0#64"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/CTAAppDelegate.m8636779200#1860"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-generated-files.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-own-target-headers.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-all-target-headers.hmap -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-project-headers.hmap -F/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/include -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources/i386 -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources -include /var/folders/6f/6fDQKOgjGYe2Nck9bDy3uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CTA_Prefix-cxgwapfnvmtcvsfhtdhzqthedkcy/CTA_Prefix.pch -c /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/CTAAppDelegate.m -o /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/CTAAppDelegate.o0#
 
 CCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/CTAServiceConstants.o /Users/vijaykokatnur/iPhone-Lessons/CTA/CTAServiceConstants.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s322731711.627408
@@ -406,9 +901,22 @@ lSLF07#2@69"Compile /Users/vijaykokatnur/iPhone-Lessons/CTA/CTAServiceConstants.
 CCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/CTAServiceConstants.o /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/CTAServiceConstants.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/CTAVariableStore.o /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/CTAVariableStore.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s323072523.388807
+e323072523.605085
+r1
+xCompileC
+xbuild/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/CTAVariableStore.o
+x/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/CTAVariableStore.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/CTAVariableStore.m323072523#323072523#0(0"0(0#0#66"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/CTAVariableStore.m8627828448#1864"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-generated-files.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-own-target-headers.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-all-target-headers.hmap -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-project-headers.hmap -F/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/include -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources/i386 -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources -include /var/folders/6f/6fDQKOgjGYe2Nck9bDy3uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CTA_Prefix-cxgwapfnvmtcvsfhtdhzqthedkcy/CTA_Prefix.pch -c /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/CTAVariableStore.m -o /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/CTAVariableStore.o0#
+
 CCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/CTAWebService.o /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/CTAWebService.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s322732407.781924
-e322732407.843997
+s325401980.149163
+e325401980.323108
 r1
 xCompileC
 xbuild/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/CTAWebService.o
@@ -417,7 +925,26 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/CTAWebService.m322732407#322732407#0(0"0(0#0#63"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/CTAWebService.m8632303712#1858"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-generated-files.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-own-target-headers.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-all-target-headers.hmap -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-project-headers.hmap -F/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/include -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources/i386 -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources -include /var/folders/6f/6fDQKOgjGYe2Nck9bDy3uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CTA_Prefix-cxgwapfnvmtcvsfhtdhzqthedkcy/CTA_Prefix.pch -c /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/CTAWebService.m -o /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/CTAWebService.o0#
+lSLF07#2@71"Compile /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/CTAWebService.m325401980#325401980#0(0"0(0#0#63"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/CTAWebService.m8641553600#1858"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-generated-files.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-own-target-headers.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-all-target-headers.hmap -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-project-headers.hmap -F/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/include -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources/i386 -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources -include /var/folders/6f/6fDQKOgjGYe2Nck9bDy3uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CTA_Prefix-cxgwapfnvmtcvsfhtdhzqthedkcy/CTA_Prefix.pch -c /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/CTAWebService.m -o /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/CTAWebService.o0#
+
+CCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/Direction-E8D32368D9E1BD7F.o /Users/vijaykokatnur/iPhone-Lessons/CTA/Direction.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/Direction.o /Users/vijaykokatnur/iPhone-Lessons/CTA/CTA.xcdatamodeld/Direction.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/Direction.o /Users/vijaykokatnur/iPhone-Lessons/CTA/Direction.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325396671.548996
+e325396671.615624
+r1
+xCompileC
+xbuild/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/Direction.o
+x/Users/vijaykokatnur/iPhone-Lessons/CTA/Direction.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/vijaykokatnur/iPhone-Lessons/CTA/Direction.m325396671#325396671#0(0"0(0#0#51"/Users/vijaykokatnur/iPhone-Lessons/CTA/Direction.m8641144832#1842"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-generated-files.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-own-target-headers.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-all-target-headers.hmap -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-project-headers.hmap -F/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/include -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources/i386 -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources -include /var/folders/6f/6fDQKOgjGYe2Nck9bDy3uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CTA_Prefix-cxgwapfnvmtcvsfhtdhzqthedkcy/CTA_Prefix.pch -c /Users/vijaykokatnur/iPhone-Lessons/CTA/Direction.m -o /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/Direction.o0#
 
 CCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/FirstViewController.o /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s322715695.973657
@@ -435,9 +962,41 @@ oi686-apple-darwin10-gcc-4.2.1: warning: '-x objective-c' after last input file 
 oi686-apple-darwin10-gcc-4.2.1: no input files
 lSLF07#2@77"Compile /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/FirstViewController.m322715695#322715695#0(371"i686-apple-darwin10-gcc-4.2.1: /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/FirstViewController.m: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x objective-c' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 11(4@103"Command /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 1322715695#18446744073709551615#0#0(1@0"0(0#0#69"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/FirstViewController.m8606512928#1870"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-generated-files.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-own-target-headers.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-all-target-headers.hmap -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-project-headers.hmap -F/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/include -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources/i386 -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources -include /var/folders/6f/6fDQKOgjGYe2Nck9bDy3uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CTA_Prefix-bqxopkffzkojqnamoallbfbdmqfz/CTA_Prefix.pch -c /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/FirstViewController.m -o /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/FirstViewController.o1#
 
+CCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/Master.o /Users/vijaykokatnur/iPhone-Lessons/CTA/CTA.xcdatamodeld/Master.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/Master.o /Users/vijaykokatnur/iPhone-Lessons/CTA/Master.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325376409.927922
+e325376410.003462
+r1
+xCompileC
+xbuild/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/Master.o
+x/Users/vijaykokatnur/iPhone-Lessons/CTA/Master.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/vijaykokatnur/iPhone-Lessons/CTA/Master.m325376409#325376410#0(0"0(0#0#48"/Users/vijaykokatnur/iPhone-Lessons/CTA/Master.m8638939232#1836"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-generated-files.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-own-target-headers.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-all-target-headers.hmap -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-project-headers.hmap -F/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/include -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources/i386 -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources -include /var/folders/6f/6fDQKOgjGYe2Nck9bDy3uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CTA_Prefix-cxgwapfnvmtcvsfhtdhzqthedkcy/CTA_Prefix.pch -c /Users/vijaykokatnur/iPhone-Lessons/CTA/Master.m -o /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/Master.o0#
+
+CCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/MyStop-6CDA6C014017D7B.o /Users/vijaykokatnur/iPhone-Lessons/CTA/MyStop.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/MyStop.o /Users/vijaykokatnur/iPhone-Lessons/CTA/MyStop.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325372485.074625
+e325372485.164940
+r1
+xCompileC
+xbuild/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/MyStop.o
+x/Users/vijaykokatnur/iPhone-Lessons/CTA/MyStop.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/vijaykokatnur/iPhone-Lessons/CTA/MyStop.m325372485#325372485#0(0"0(0#0#48"/Users/vijaykokatnur/iPhone-Lessons/CTA/MyStop.m8636956352#1836"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-generated-files.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-own-target-headers.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-all-target-headers.hmap -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-project-headers.hmap -F/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/include -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources/i386 -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources -include /var/folders/6f/6fDQKOgjGYe2Nck9bDy3uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CTA_Prefix-cxgwapfnvmtcvsfhtdhzqthedkcy/CTA_Prefix.pch -c /Users/vijaykokatnur/iPhone-Lessons/CTA/MyStop.m -o /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/MyStop.o0#
+
 CCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/MyStopViewController.o /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s322717362.038110
-e322717362.149197
+s325380363.925432
+e325380364.054156
 r1
 xCompileC
 xbuild/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/MyStopViewController.o
@@ -446,11 +1005,18 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@78"Compile /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.m322717362#322717362#0(0"0(0#0#70"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.m8616743488#1872"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-generated-files.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-own-target-headers.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-all-target-headers.hmap -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-project-headers.hmap -F/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/include -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources/i386 -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources -include /var/folders/6f/6fDQKOgjGYe2Nck9bDy3uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CTA_Prefix-cxgwapfnvmtcvsfhtdhzqthedkcy/CTA_Prefix.pch -c /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.m -o /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/MyStopViewController.o0#
+o/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.m: In function '-[MyStopViewController tableView:cellForRowAtIndexPath:]':
+o/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.m:165: warning: unused variable 'dirlbl'
+o/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.m:162: warning: unused variable 'stoplbl'
+o/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.m:159: warning: unused variable 'routelbl'
+o/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.m:157: warning: unused variable 'stop'
+o/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.m: In function '-[MyStopViewController tableView:didSelectRowAtIndexPath:]':
+o/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.m:221: warning: unused variable 'stop'
+lSLF07#2@78"Compile /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.m325380363#325380364#0(839"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.m: In function '-[MyStopViewController tableView:cellForRowAtIndexPath:]':/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.m:165: warning: unused variable 'dirlbl'/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.m:162: warning: unused variable 'stoplbl'/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.m:159: warning: unused variable 'routelbl'/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.m:157: warning: unused variable 'stop'/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.m: In function '-[MyStopViewController tableView:didSelectRowAtIndexPath:]':/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.m:221: warning: unused variable 'stop'5(22@24"Unused variable 'dirlbl'325380363#144#110#0(6@70"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.m325372550#165#0#165#0#19"unused variable '*'0(22@25"Unused variable 'stoplbl'325380363#254#111#0(6@70"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.m325372550#162#0#162#0#19"unused variable '*'0(22@26"Unused variable 'routelbl'325380363#365#112#0(6@70"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.m325372550#159#0#159#0#19"unused variable '*'0(22@22"Unused variable 'stop'325380363#477#108#0(6@70"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.m325372550#157#0#157#0#19"unused variable '*'0(22@22"Unused variable 'stop'325380363#731#108#0(6@70"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.m325372550#221#0#221#0#19"unused variable '*'0(0#0#70"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.m8647326432#1872"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-generated-files.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-own-target-headers.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-all-target-headers.hmap -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-project-headers.hmap -F/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/include -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources/i386 -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources -include /var/folders/6f/6fDQKOgjGYe2Nck9bDy3uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CTA_Prefix-cxgwapfnvmtcvsfhtdhzqthedkcy/CTA_Prefix.pch -c /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.m -o /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/MyStopViewController.o0#
 
 CCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/NSDataAdditions.o /Users/vijaykokatnur/iPhone-Lessons/CTA/NSDataAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s322731505.477071
-e322731505.638633
+s324880138.644729
+e324880138.867460
 r1
 xCompileC
 xbuild/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/NSDataAdditions.o
@@ -459,11 +1025,107 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/vijaykokatnur/iPhone-Lessons/CTA/NSDataAdditions.m322731505#322731505#0(0"0(0#0#57"/Users/vijaykokatnur/iPhone-Lessons/CTA/NSDataAdditions.m8633077376#1854"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-generated-files.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-own-target-headers.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-all-target-headers.hmap -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-project-headers.hmap -F/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/include -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources/i386 -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources -include /var/folders/6f/6fDQKOgjGYe2Nck9bDy3uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CTA_Prefix-cxgwapfnvmtcvsfhtdhzqthedkcy/CTA_Prefix.pch -c /Users/vijaykokatnur/iPhone-Lessons/CTA/NSDataAdditions.m -o /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/NSDataAdditions.o0#
+lSLF07#2@65"Compile /Users/vijaykokatnur/iPhone-Lessons/CTA/NSDataAdditions.m324880138#324880138#0(0"0(0#0#57"/Users/vijaykokatnur/iPhone-Lessons/CTA/NSDataAdditions.m8627642560#1854"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-generated-files.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-own-target-headers.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-all-target-headers.hmap -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-project-headers.hmap -F/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/include -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources/i386 -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources -include /var/folders/6f/6fDQKOgjGYe2Nck9bDy3uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CTA_Prefix-cxgwapfnvmtcvsfhtdhzqthedkcy/CTA_Prefix.pch -c /Users/vijaykokatnur/iPhone-Lessons/CTA/NSDataAdditions.m -o /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/NSDataAdditions.o0#
+
+CCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/Route.o /Users/vijaykokatnur/iPhone-Lessons/CTA/Route.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325396671.498501
+e325396671.591544
+r1
+xCompileC
+xbuild/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/Route.o
+x/Users/vijaykokatnur/iPhone-Lessons/CTA/Route.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/vijaykokatnur/iPhone-Lessons/CTA/Route.m325396671#325396671#0(0"0(0#0#47"/Users/vijaykokatnur/iPhone-Lessons/CTA/Route.m8643144384#1834"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-generated-files.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-own-target-headers.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-all-target-headers.hmap -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-project-headers.hmap -F/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/include -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources/i386 -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources -include /var/folders/6f/6fDQKOgjGYe2Nck9bDy3uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CTA_Prefix-cxgwapfnvmtcvsfhtdhzqthedkcy/CTA_Prefix.pch -c /Users/vijaykokatnur/iPhone-Lessons/CTA/Route.m -o /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/Route.o0#
+
+CCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/ScheduleError.o /Users/vijaykokatnur/iPhone-Lessons/CTA/ScheduleError.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325366103.331136
+e325366103.401927
+r1
+xCompileC
+xbuild/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/ScheduleError.o
+x/Users/vijaykokatnur/iPhone-Lessons/CTA/ScheduleError.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/vijaykokatnur/iPhone-Lessons/CTA/ScheduleError.m325366103#325366103#0(0"0(0#0#55"/Users/vijaykokatnur/iPhone-Lessons/CTA/ScheduleError.m8617772608#1850"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-generated-files.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-own-target-headers.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-all-target-headers.hmap -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-project-headers.hmap -F/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/include -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources/i386 -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources -include /var/folders/6f/6fDQKOgjGYe2Nck9bDy3uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CTA_Prefix-cxgwapfnvmtcvsfhtdhzqthedkcy/CTA_Prefix.pch -c /Users/vijaykokatnur/iPhone-Lessons/CTA/ScheduleError.m -o /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/ScheduleError.o0#
+
+CCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/Stop.o /Users/vijaykokatnur/iPhone-Lessons/CTA/Stop.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/StopDetail.o /Users/vijaykokatnur/iPhone-Lessons/CTA/StopDetail.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325293922.079055
+e325293922.184787
+r1
+xCompileC
+xbuild/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/StopDetail.o
+x/Users/vijaykokatnur/iPhone-Lessons/CTA/StopDetail.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/vijaykokatnur/iPhone-Lessons/CTA/StopDetail.m325293922#325293922#0(0"0(0#0#52"/Users/vijaykokatnur/iPhone-Lessons/CTA/StopDetail.m8600272928#1844"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-generated-files.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-own-target-headers.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-all-target-headers.hmap -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-project-headers.hmap -F/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/include -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources/i386 -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources -include /var/folders/6f/6fDQKOgjGYe2Nck9bDy3uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CTA_Prefix-cxgwapfnvmtcvsfhtdhzqthedkcy/CTA_Prefix.pch -c /Users/vijaykokatnur/iPhone-Lessons/CTA/StopDetail.m -o /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/StopDetail.o0#
+
+CCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/StopDetailViewController.o /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopDetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325392990.690531
+e325392990.891153
+r1
+xCompileC
+xbuild/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/StopDetailViewController.o
+x/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopDetailViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopDetailViewController.m: In function '-[StopDetailViewController saveStop]':
+o/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopDetailViewController.m:45: warning: unused variable 'stop'
+lSLF07#2@82"Compile /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopDetailViewController.m325392990#325392990#0(239"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopDetailViewController.m: In function '-[StopDetailViewController saveStop]':/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopDetailViewController.m:45: warning: unused variable 'stop'1(22@22"Unused variable 'stop'325392990#128#111#0(6@74"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopDetailViewController.m325372519#45#0#45#0#19"unused variable '*'0(0#0#74"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopDetailViewController.m8621628672#1880"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-generated-files.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-own-target-headers.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-all-target-headers.hmap -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-project-headers.hmap -F/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/include -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources/i386 -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources -include /var/folders/6f/6fDQKOgjGYe2Nck9bDy3uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CTA_Prefix-cxgwapfnvmtcvsfhtdhzqthedkcy/CTA_Prefix.pch -c /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopDetailViewController.m -o /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/StopDetailViewController.o0#
+
+CCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/StopViewController.o /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322960538.920894
+e322960539.146683
+r1
+xCompileC
+xbuild/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/StopViewController.o
+x/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopViewController.m322960538#322960539#0(0"0(0#0#68"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopViewController.m8646782528#1868"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-generated-files.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-own-target-headers.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-all-target-headers.hmap -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-project-headers.hmap -F/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/include -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources/i386 -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources -include /var/folders/6f/6fDQKOgjGYe2Nck9bDy3uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CTA_Prefix-cxgwapfnvmtcvsfhtdhzqthedkcy/CTA_Prefix.pch -c /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopViewController.m -o /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/StopViewController.o0#
+
+CCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/Stops.o /Users/vijaykokatnur/iPhone-Lessons/CTA/Stops.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325396671.326111
+e325396671.548871
+r1
+xCompileC
+xbuild/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/Stops.o
+x/Users/vijaykokatnur/iPhone-Lessons/CTA/Stops.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/vijaykokatnur/iPhone-Lessons/CTA/Stops.m325396671#325396671#0(0"0(0#0#47"/Users/vijaykokatnur/iPhone-Lessons/CTA/Stops.m8646235072#1834"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-generated-files.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-own-target-headers.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-all-target-headers.hmap -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-project-headers.hmap -F/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/include -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources/i386 -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources -include /var/folders/6f/6fDQKOgjGYe2Nck9bDy3uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CTA_Prefix-cxgwapfnvmtcvsfhtdhzqthedkcy/CTA_Prefix.pch -c /Users/vijaykokatnur/iPhone-Lessons/CTA/Stops.m -o /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/Stops.o0#
+
+CCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/StopsViewController.o /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s323139826.474268
+e323139826.658472
+r1
+xCompileC
+xbuild/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/StopsViewController.o
+x/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopsViewController.m323139826#323139826#0(0"0(0#0#69"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopsViewController.m8622693248#1870"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-generated-files.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-own-target-headers.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-all-target-headers.hmap -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-project-headers.hmap -F/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/include -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources/i386 -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources -include /var/folders/6f/6fDQKOgjGYe2Nck9bDy3uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CTA_Prefix-cxgwapfnvmtcvsfhtdhzqthedkcy/CTA_Prefix.pch -c /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopsViewController.m -o /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/StopsViewController.o0#
 
 CCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/TBXML.o /Users/vijaykokatnur/iPhone-Lessons/CTA/TBXML.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s322731505.599249
-e322731505.778681
+s324880138.722675
+e324880139.010962
 r1
 xCompileC
 xbuild/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/TBXML.o
@@ -472,11 +1134,14 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@55"Compile /Users/vijaykokatnur/iPhone-Lessons/CTA/TBXML.m322731505#322731505#0(0"0(0#0#47"/Users/vijaykokatnur/iPhone-Lessons/CTA/TBXML.m8632524320#1834"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-generated-files.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-own-target-headers.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-all-target-headers.hmap -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-project-headers.hmap -F/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/include -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources/i386 -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources -include /var/folders/6f/6fDQKOgjGYe2Nck9bDy3uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CTA_Prefix-cxgwapfnvmtcvsfhtdhzqthedkcy/CTA_Prefix.pch -c /Users/vijaykokatnur/iPhone-Lessons/CTA/TBXML.m -o /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/TBXML.o0#
+lSLF07#2@55"Compile /Users/vijaykokatnur/iPhone-Lessons/CTA/TBXML.m324880138#324880139#0(0"0(0#0#47"/Users/vijaykokatnur/iPhone-Lessons/CTA/TBXML.m8624865856#1834"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-generated-files.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-own-target-headers.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-all-target-headers.hmap -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-project-headers.hmap -F/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/include -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources/i386 -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources -include /var/folders/6f/6fDQKOgjGYe2Nck9bDy3uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CTA_Prefix-cxgwapfnvmtcvsfhtdhzqthedkcy/CTA_Prefix.pch -c /Users/vijaykokatnur/iPhone-Lessons/CTA/TBXML.m -o /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/TBXML.o0#
+
+CCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/Test.o /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/Test.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/main.o /Users/vijaykokatnur/iPhone-Lessons/CTA/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s322717361.958695
-e322717362.037988
+s324880138.393949
+e324880138.463953
 r1
 xCompileC
 xbuild/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/main.o
@@ -485,23 +1150,26 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@54"Compile /Users/vijaykokatnur/iPhone-Lessons/CTA/main.m322717361#322717362#0(0"0(0#0#46"/Users/vijaykokatnur/iPhone-Lessons/CTA/main.m8615818432#1832"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-generated-files.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-own-target-headers.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-all-target-headers.hmap -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-project-headers.hmap -F/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/include -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources/i386 -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources -include /var/folders/6f/6fDQKOgjGYe2Nck9bDy3uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CTA_Prefix-cxgwapfnvmtcvsfhtdhzqthedkcy/CTA_Prefix.pch -c /Users/vijaykokatnur/iPhone-Lessons/CTA/main.m -o /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/main.o0#
+lSLF07#2@54"Compile /Users/vijaykokatnur/iPhone-Lessons/CTA/main.m324880138#324880138#0(0"0(0#0#46"/Users/vijaykokatnur/iPhone-Lessons/CTA/main.m8623134848#1832"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-generated-files.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-own-target-headers.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-all-target-headers.hmap -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-project-headers.hmap -F/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/include -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources/i386 -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources -include /var/folders/6f/6fDQKOgjGYe2Nck9bDy3uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CTA_Prefix-cxgwapfnvmtcvsfhtdhzqthedkcy/CTA_Prefix.pch -c /Users/vijaykokatnur/iPhone-Lessons/CTA/main.m -o /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/vijaykokatnur/iPhone-Lessons/CTA/AllStopsController.xib
+r0
 
 CCompileXIB /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/AllStopsViewController.xib
-s322720323.059972
-e322720323.573511
+s323064887.547140
+e323064888.137185
 r1
 xCompileXIB
 x/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/AllStopsViewController.xib
-lSLF07#2@45"CompileXIB Classes/AllStopsViewController.xib322720323#322720323#0(0"0(0#0#74"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/AllStopsViewController.xib8618042464#601"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/AllStopsViewController.nib /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/AllStopsViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+lSLF07#2@45"CompileXIB Classes/AllStopsViewController.xib323064887#323064888#0(0"0(0#0#74"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/AllStopsViewController.xib8630274048#601"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/AllStopsViewController.nib /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/AllStopsViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
 
 CCompileXIB /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/BusLookUpViewController.xib
-s322727267.880159
-e322727268.528874
+s325278006.999847
+e325278007.767266
 r1
 xCompileXIB
 x/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/BusLookUpViewController.xib
-lSLF07#2@46"CompileXIB Classes/BusLookUpViewController.xib322727267#322727268#0(0"0(0#0#75"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/BusLookUpViewController.xib8627889056#603"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/BusLookUpViewController.nib /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/BusLookUpViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+lSLF07#2@46"CompileXIB Classes/BusLookUpViewController.xib325278007#325278007#0(0"0(0#0#75"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/BusLookUpViewController.xib8620384096#603"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/BusLookUpViewController.nib /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/BusLookUpViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
 
 CCompileXIB /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.xib
 s322717358.836852
@@ -511,6 +1179,30 @@ xCompileXIB
 x/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.xib
 oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
 lSLF07#2@43"CompileXIB Classes/MyStopViewController.xib322717358#322717359#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#72"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.xib8616474528#597"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/MyStopViewController.nib /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/MyStopViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/PredictionCellView.xib
+s325282889.627486
+e325282890.203222
+r1
+xCompileXIB
+x/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/PredictionCellView.xib
+lSLF07#2@41"CompileXIB Classes/PredictionCellView.xib325282889#325282890#0(0"0(0#0#70"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/PredictionCellView.xib8615249664#593"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/PredictionCellView.nib /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/PredictionCellView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopDetailViewController.xib
+s324781172.725072
+e324781173.311047
+r1
+xCompileXIB
+x/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopDetailViewController.xib
+lSLF07#2@47"CompileXIB Classes/StopDetailViewController.xib324781172#324781173#0(0"0(0#0#76"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopDetailViewController.xib8630778912#605"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/StopDetailViewController.nib /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopDetailViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopsViewController.xib
+s325282781.463763
+e325282782.034140
+r1
+xCompileXIB
+x/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopsViewController.xib
+lSLF07#2@42"CompileXIB Classes/StopsViewController.xib325282781#325282782#0(0"0(0#0#71"/Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopsViewController.xib8615916928#595"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/StopsViewController.nib /Users/vijaykokatnur/iPhone-Lessons/CTA/Classes/StopsViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
 
 CCompileXIB /Users/vijaykokatnur/iPhone-Lessons/CTA/FirstView.xib
 s322715695.817820
@@ -523,13 +1215,20 @@ o/Users/vijaykokatnur/iPhone-Lessons/CTA/FirstView.xib: error: File does not exi
 lSLF07#2@24"CompileXIB FirstView.xib322715695#322715695#0(192"/* com.apple.ibtool.errors *//Users/vijaykokatnur/iPhone-Lessons/CTA/FirstView.xib: error: File does not exist at path 'file://localhost/Users/vijaykokatnur/iPhone-Lessons/CTA/FirstView.xib'1(4@99"File does not exist at path 'file://localhost/Users/vijaykokatnur/iPhone-Lessons/CTA/FirstView.xib'322715695#18446744073709551615#0#0(6@53"/Users/vijaykokatnur/iPhone-Lessons/CTA/FirstView.xib322715695#0#0#0#0#0"0(0#0#53"/Users/vijaykokatnur/iPhone-Lessons/CTA/FirstView.xib8606789888#567"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/FirstView.nib /Users/vijaykokatnur/iPhone-Lessons/CTA/FirstView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk1#
 
 CCompileXIB /Users/vijaykokatnur/iPhone-Lessons/CTA/MainWindow.xib
-s322717358.835844
-e322717359.498097
+s325372484.095989
+e325372484.725315
 r1
 xCompileXIB
 x/Users/vijaykokatnur/iPhone-Lessons/CTA/MainWindow.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@25"CompileXIB MainWindow.xib322717358#322717359#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#54"/Users/vijaykokatnur/iPhone-Lessons/CTA/MainWindow.xib8616643424#569"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/MainWindow.nib /Users/vijaykokatnur/iPhone-Lessons/CTA/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+lSLF07#2@25"CompileXIB MainWindow.xib325372484#325372484#0(0"0(0#0#54"/Users/vijaykokatnur/iPhone-Lessons/CTA/MainWindow.xib8635444000#569"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/MainWindow.nib /Users/vijaykokatnur/iPhone-Lessons/CTA/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/vijaykokatnur/iPhone-Lessons/CTA/MyStopTableView.xib
+s325299184.988804
+e325299185.573240
+r1
+xCompileXIB
+x/Users/vijaykokatnur/iPhone-Lessons/CTA/MyStopTableView.xib
+lSLF07#2@30"CompileXIB MyStopTableView.xib325299184#325299185#0(0"0(0#0#59"/Users/vijaykokatnur/iPhone-Lessons/CTA/MyStopTableView.xib8643187712#579"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/MyStopTableView.nib /Users/vijaykokatnur/iPhone-Lessons/CTA/MyStopTableView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
 
 CCompileXIB /Users/vijaykokatnur/iPhone-Lessons/CTA/SecondView.xib
 s322715695.809942
@@ -541,33 +1240,118 @@ o/* com.apple.ibtool.errors */
 o/Users/vijaykokatnur/iPhone-Lessons/CTA/SecondView.xib: error: File does not exist at path 'file://localhost/Users/vijaykokatnur/iPhone-Lessons/CTA/SecondView.xib'
 lSLF07#2@25"CompileXIB SecondView.xib322715695#322715695#0(194"/* com.apple.ibtool.errors *//Users/vijaykokatnur/iPhone-Lessons/CTA/SecondView.xib: error: File does not exist at path 'file://localhost/Users/vijaykokatnur/iPhone-Lessons/CTA/SecondView.xib'1(4@100"File does not exist at path 'file://localhost/Users/vijaykokatnur/iPhone-Lessons/CTA/SecondView.xib'322715695#18446744073709551615#0#0(6@54"/Users/vijaykokatnur/iPhone-Lessons/CTA/SecondView.xib322715695#0#0#0#0#0"0(0#0#54"/Users/vijaykokatnur/iPhone-Lessons/CTA/SecondView.xib8604527744#569"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/SecondView.nib /Users/vijaykokatnur/iPhone-Lessons/CTA/SecondView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk1#
 
+CCompileXIB /Users/vijaykokatnur/iPhone-Lessons/CTA/StopDetailHeader.xib
+s325365440.722790
+e325365441.335109
+r1
+xCompileXIB
+x/Users/vijaykokatnur/iPhone-Lessons/CTA/StopDetailHeader.xib
+lSLF07#2@31"CompileXIB StopDetailHeader.xib325365440#325365441#0(0"0(0#0#60"/Users/vijaykokatnur/iPhone-Lessons/CTA/StopDetailHeader.xib8609760672#581"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/StopDetailHeader.nib /Users/vijaykokatnur/iPhone-Lessons/CTA/StopDetailHeader.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/vijaykokatnur/iPhone-Lessons/CTA/StopViewController.xib
+s322961879.515496
+e322961880.052207
+r1
+xCompileXIB
+x/Users/vijaykokatnur/iPhone-Lessons/CTA/StopViewController.xib
+lSLF07#2@33"CompileXIB StopViewController.xib322961879#322961880#0(0"0(0#0#62"/Users/vijaykokatnur/iPhone-Lessons/CTA/StopViewController.xib8617153344#585"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/StopViewController.nib /Users/vijaykokatnur/iPhone-Lessons/CTA/StopViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCpResource build/Debug-iphonesimulator/CTA.app/1303186742_gtk-refresh.png 1303186742_gtk-refresh.png
+r0
+
+CCpResource build/Debug-iphonesimulator/CTA.app/2009_01_01_CTA.jpg 2009_01_01_CTA.jpg
+s324884634.010836
+e324884634.049280
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CTA.app/2009_01_01_CTA.jpg
+x2009_01_01_CTA.jpg
+lSLF07#2@23"Copy 2009_01_01_CTA.jpg324884634#324884634#0(0"0(0#0#58"/Users/vijaykokatnur/iPhone-Lessons/CTA/2009_01_01_CTA.jpg8627735744#461"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/vijaykokatnur/iPhone-Lessons/CTA/2009_01_01_CTA.jpg /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app0#
+
+CCpResource build/Debug-iphonesimulator/CTA.app/Icon_l.png Icon_l.png
+r0
+
+CCpResource build/Debug-iphonesimulator/CTA.app/cta_oldtime.jpg cta_oldtime.jpg
+s324883175.314303
+e324883175.359377
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CTA.app/cta_oldtime.jpg
+xcta_oldtime.jpg
+lSLF07#2@20"Copy cta_oldtime.jpg324883175#324883175#0(0"0(0#0#55"/Users/vijaykokatnur/iPhone-Lessons/CTA/cta_oldtime.jpg8621359840#458"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/vijaykokatnur/iPhone-Lessons/CTA/cta_oldtime.jpg /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app0#
+
+CCpResource build/Debug-iphonesimulator/CTA.app/gnome_view_refresh.png ../../Downloads/gnome_view_refresh.png
+s325365440.728611
+e325365440.746961
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CTA.app/gnome_view_refresh.png
+x../../Downloads/gnome_view_refresh.png
+lSLF07#2@43"Copy ../../Downloads/gnome_view_refresh.png325365440#325365440#0(0"0(0#0#78"/Users/vijaykokatnur/iPhone-Lessons/CTA/../../Downloads/gnome_view_refresh.png8609305248#481"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/vijaykokatnur/iPhone-Lessons/CTA/../../Downloads/gnome_view_refresh.png /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app0#
+
+CCpResource build/Debug-iphonesimulator/CTA.app/map-to-5406_cta.jpg map-to-5406_cta.jpg
+s324884634.010046
+e324884634.048539
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CTA.app/map-to-5406_cta.jpg
+xmap-to-5406_cta.jpg
+lSLF07#2@24"Copy map-to-5406_cta.jpg324884634#324884634#0(0"0(0#0#59"/Users/vijaykokatnur/iPhone-Lessons/CTA/map-to-5406_cta.jpg8625420128#462"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/vijaykokatnur/iPhone-Lessons/CTA/map-to-5406_cta.jpg /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app0#
+
+CCpResource build/Debug-iphonesimulator/CTA.app/plus.png ../../Downloads/plus.png
+s325365440.727581
+e325365440.746369
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CTA.app/plus.png
+x../../Downloads/plus.png
+lSLF07#2@29"Copy ../../Downloads/plus.png325365440#325365440#0(0"0(0#0#64"/Users/vijaykokatnur/iPhone-Lessons/CTA/../../Downloads/plus.png8609384736#467"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/vijaykokatnur/iPhone-Lessons/CTA/../../Downloads/plus.png /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app0#
+
+CCpResource build/Debug-iphonesimulator/CTA.app/public-transportation.jpg public-transportation.jpg
+r0
+
+CCpResource build/Debug-iphonesimulator/CTA.app/refresh.png refresh.png
+s324880137.710055
+e324880137.735691
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CTA.app/refresh.png
+xrefresh.png
+lSLF07#2@16"Copy refresh.png324880137#324880137#0(0"0(0#0#51"/Users/vijaykokatnur/iPhone-Lessons/CTA/refresh.png8625480672#454"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/vijaykokatnur/iPhone-Lessons/CTA/refresh.png /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app0#
+
 CDataModelVersionCompile /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/CTA.momd /Users/vijaykokatnur/iPhone-Lessons/CTA/CTA.xcdatamodeld
-s322720638.048524
-e322720638.109893
+s325396671.118701
+e325396671.206064
 r1
 xDataModelVersionCompile
 x/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/CTA.momd
 x/Users/vijaykokatnur/iPhone-Lessons/CTA/CTA.xcdatamodeld
-lSLF07#2@85"DataModelVersionCompile build/Debug-iphonesimulator/CTA.app/CTA.momd CTA.xcdatamodeld322720638#322720638#0(0"0(0#0#56"/Users/vijaykokatnur/iPhone-Lessons/CTA/CTA.xcdatamodeld8616531072#377"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/vijaykokatnur/iPhone-Lessons/CTA/CTA.xcdatamodeld /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/CTA.momd0#
+o/Users/vijaykokatnur/iPhone-Lessons/CTA/CTA.xcdatamodeld/CTA.xcdatamodel:MyStop.stop: warning: MyStop.stop -- relationship has -No Action- for delete rule, this is an advanced setting 
+o/Users/vijaykokatnur/iPhone-Lessons/CTA/CTA.xcdatamodeld/CTA.xcdatamodel:MyStop.stop: warning: MyStop.stop -- to-many relationship does not have an inverse:  this is an advanced setting (no object can be in multiple destinations for a specific relationship) 
+o/Users/vijaykokatnur/iPhone-Lessons/CTA/CTA.xcdatamodeld/CTA.xcdatamodel:Stops.route: warning: Stops.route -- relationship has -No Action- for delete rule, this is an advanced setting 
+o/Users/vijaykokatnur/iPhone-Lessons/CTA/CTA.xcdatamodeld/CTA.xcdatamodel:Stops.direction: warning: Stops.direction -- relationship does not have an inverse 
+o/Users/vijaykokatnur/iPhone-Lessons/CTA/CTA.xcdatamodeld/CTA.xcdatamodel:Route.directions: warning: Route.directions -- relationship has -No Action- for delete rule, this is an advanced setting 
+o/Users/vijaykokatnur/iPhone-Lessons/CTA/CTA.xcdatamodeld/CTA.xcdatamodel:Route.directions: warning: Route.directions -- to-many relationship does not have an inverse:  this is an advanced setting (no object can be in multiple destinations for a specific relationship) 
+lSLF07#2@85"DataModelVersionCompile build/Debug-iphonesimulator/CTA.app/CTA.momd CTA.xcdatamodeld325396671#325396671#0(1250"/Users/vijaykokatnur/iPhone-Lessons/CTA/CTA.xcdatamodeld/CTA.xcdatamodel:MyStop.stop: warning: MyStop.stop -- relationship has -No Action- for delete rule, this is an advanced setting /Users/vijaykokatnur/iPhone-Lessons/CTA/CTA.xcdatamodeld/CTA.xcdatamodel:MyStop.stop: warning: MyStop.stop -- to-many relationship does not have an inverse:  this is an advanced setting (no object can be in multiple destinations for a specific relationship) /Users/vijaykokatnur/iPhone-Lessons/CTA/CTA.xcdatamodeld/CTA.xcdatamodel:Stops.route: warning: Stops.route -- relationship has -No Action- for delete rule, this is an advanced setting /Users/vijaykokatnur/iPhone-Lessons/CTA/CTA.xcdatamodeld/CTA.xcdatamodel:Stops.direction: warning: Stops.direction -- relationship does not have an inverse /Users/vijaykokatnur/iPhone-Lessons/CTA/CTA.xcdatamodeld/CTA.xcdatamodel:Route.directions: warning: Route.directions -- relationship has -No Action- for delete rule, this is an advanced setting /Users/vijaykokatnur/iPhone-Lessons/CTA/CTA.xcdatamodeld/CTA.xcdatamodel:Route.directions: warning: Route.directions -- to-many relationship does not have an inverse:  this is an advanced setting (no object can be in multiple destinations for a specific relationship) 6(22@89"MyStop.stop -- relationship has -No Action- for delete rule, this is an advanced setting 325396671#18446744073709551615#0#0(6@72"/Users/vijaykokatnur/iPhone-Lessons/CTA/CTA.xcdatamodeld/CTA.xcdatamodel325396656#0#0#0#0#0"0(22@163"MyStop.stop -- to-many relationship does not have an inverse:  this is an advanced setting (no object can be in multiple destinations for a specific relationship) 325396671#18446744073709551615#0#0(6@72"/Users/vijaykokatnur/iPhone-Lessons/CTA/CTA.xcdatamodeld/CTA.xcdatamodel325396656#0#0#0#0#0"0(22@89"Stops.route -- relationship has -No Action- for delete rule, this is an advanced setting 325396671#18446744073709551615#0#0(6@72"/Users/vijaykokatnur/iPhone-Lessons/CTA/CTA.xcdatamodeld/CTA.xcdatamodel325396656#0#0#0#0#0"0(22@57"Stops.direction -- relationship does not have an inverse 325396671#18446744073709551615#0#0(6@72"/Users/vijaykokatnur/iPhone-Lessons/CTA/CTA.xcdatamodeld/CTA.xcdatamodel325396656#0#0#0#0#0"0(22@94"Route.directions -- relationship has -No Action- for delete rule, this is an advanced setting 325396671#18446744073709551615#0#0(6@72"/Users/vijaykokatnur/iPhone-Lessons/CTA/CTA.xcdatamodeld/CTA.xcdatamodel325396656#0#0#0#0#0"0(22@168"Route.directions -- to-many relationship does not have an inverse:  this is an advanced setting (no object can be in multiple destinations for a specific relationship) 325396671#18446744073709551615#0#0(6@72"/Users/vijaykokatnur/iPhone-Lessons/CTA/CTA.xcdatamodeld/CTA.xcdatamodel325396656#0#0#0#0#0"0(0#0#56"/Users/vijaykokatnur/iPhone-Lessons/CTA/CTA.xcdatamodeld8623881408#377"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/vijaykokatnur/iPhone-Lessons/CTA/CTA.xcdatamodeld /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/CTA.momd0#
 
 CGenerateDSYMFile /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app.dSYM /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/CTA
-s322732407.880694
-e322732407.909940
+s325443004.110510
+e325443004.156625
 r1
 xGenerateDSYMFile
 x/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app.dSYM
 x/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/CTA
-lSLF07#2@97"GenerateDSYMFile build/Debug-iphonesimulator/CTA.app.dSYM build/Debug-iphonesimulator/CTA.app/CTA322732407#322732407#0(0"0(0#0#79"/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/CTA8628690816#374"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/CTA -o /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app.dSYM0#
+lSLF07#2@97"GenerateDSYMFile build/Debug-iphonesimulator/CTA.app.dSYM build/Debug-iphonesimulator/CTA.app/CTA325443004#325443004#0(0"0(0#0#79"/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/CTA8613341408#374"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/CTA -o /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app.dSYM0#
 
 CLd /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/CTA normal i386
-s322732407.844108
-e322732407.880570
+s325443004.062214
+e325443004.110362
 r1
 xLd
 x/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/CTA
 xnormal
 xi386
-lSLF07#2@84"Link /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/CTA322732407#322732407#0(0"0(0#0#0"8630731264#909"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -F/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -filelist /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/CTA.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -lz -o /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/CTA0#
+lSLF07#2@84"Link /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/CTA325443004#325443004#0(0"0(0#0#0"8615689280#909"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -F/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -filelist /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/Objects-normal/i386/CTA.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -lz -o /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/CTA0#
 
 CProcessInfoPlistFile /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app/Info.plist CTA-Info.plist
 s322715671.296672
@@ -605,10 +1389,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@25"Precompile CTA_Prefix.pch322717359#322717361#0(0"0(0#0#54"/Users/vijaykokatnur/iPhone-Lessons/CTA/CTA_Prefix.pch8616820960#1727"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-generated-files.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-own-target-headers.hmap -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-all-target-headers.hmap -iquote /Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/CTA-project-headers.hmap -F/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/include -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources/i386 -I/Users/vijaykokatnur/iPhone-Lessons/CTA/build/CTA.build/Debug-iphonesimulator/CTA.build/DerivedSources -c /Users/vijaykokatnur/iPhone-Lessons/CTA/CTA_Prefix.pch -o /var/folders/6f/6fDQKOgjGYe2Nck9bDy3uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CTA_Prefix-cxgwapfnvmtcvsfhtdhzqthedkcy/CTA_Prefix.pch.gch0#
 
 CTouch /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app
-s322732407.910043
-e322732407.913860
+s325443004.156736
+e325443004.160834
 r1
 xTouch
 x/Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app
-lSLF07#2@81"Touch /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app322732407#322732407#0(0"0(0#0#0"8628430656#276"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app0#
+lSLF07#2@81"Touch /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app325443004#325443004#0(0"0(0#0#0"8615718752#276"    cd /Users/vijaykokatnur/iPhone-Lessons/CTA    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/vijaykokatnur/iPhone-Lessons/CTA/build/Debug-iphonesimulator/CTA.app0#
 

@@ -8,13 +8,25 @@
 	<dict>
 		<key>CTA</key>
 		<dict>
+			<key>Direction</key>
+			<data>
+			9wq9+neOKnTAOcDdHP8IpJJWWO4vlBbIAbP9SeeiiEU=
+			</data>
+			<key>Master</key>
+			<data>
+			ut1j9k7GY9beUxMaKU73S1PSoSIBKTw+OptLCUk3tMw=
+			</data>
 			<key>MyStop</key>
 			<data>
-			Pm+7iT4QqVCCpj+YyCLryQIVYOiy7c51V7ZPLqfo6Zs=
+			HToBwTt3vzB3L13dWV+0O2xhAK0htpl2wwSsHNk2Yj8=
 			</data>
 			<key>Route</key>
 			<data>
-			YYu8a6oC4+yHsAMBQl2PINbhTE4C4/O6sCN0aVV41ms=
+			N92SHpBh9wqAhE0jR8cUs2mDbuMQiLpPelpF6vdKanw=
+			</data>
+			<key>Stops</key>
+			<data>
+			X2zWQ354sN27gHLEmp1ChocvevGPVqHBz49lP5fa6uw=
 			</data>
 		</dict>
 	</dict>

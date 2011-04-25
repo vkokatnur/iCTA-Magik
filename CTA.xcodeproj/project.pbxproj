@@ -15,22 +15,37 @@
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
-		3B804901133C434D000004A6 /* MyStopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8048FF133C434D000004A6 /* MyStopViewController.m */; };
-		3B804902133C434D000004A6 /* MyStopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B804900133C434D000004A6 /* MyStopViewController.xib */; };
+		3B0B9799135BBF0100FA1A69 /* StopDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0B9797135BBF0100FA1A69 /* StopDetailViewController.m */; };
+		3B0B984E135BD28700FA1A69 /* PredictionCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B0B984D135BD28700FA1A69 /* PredictionCellView.xib */; };
+		3B1BE858135D2E2B00EE5CD9 /* AllRoutesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1BE857135D2E2B00EE5CD9 /* AllRoutesViewController.m */; };
+		3B1BE8CB135D402600EE5CD9 /* StopDetailHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B1BE8CA135D402600EE5CD9 /* StopDetailHeader.xib */; };
+		3B1BE901135D573500EE5CD9 /* 2009_01_01_CTA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B1BE900135D573500EE5CD9 /* 2009_01_01_CTA.jpg */; };
+		3B1D94391342B83700D62580 /* StopsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B1D94371342B83700D62580 /* StopsViewController.xib */; };
 		3B804907133C4394000004A6 /* BusLookUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B804905133C4394000004A6 /* BusLookUpViewController.m */; };
 		3B804908133C4394000004A6 /* BusLookUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B804906133C4394000004A6 /* BusLookUpViewController.xib */; };
 		3B80491D133C5218000004A6 /* AllStopsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B80491B133C5218000004A6 /* AllStopsViewController.m */; };
-		3B80491E133C5218000004A6 /* AllStopsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B80491C133C5218000004A6 /* AllStopsViewController.xib */; };
 		3B8049FB133C79F5000004A6 /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8049F8133C79F5000004A6 /* NSDataAdditions.m */; };
 		3B8049FC133C79F5000004A6 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8049FA133C79F5000004A6 /* TBXML.m */; };
 		3B8049FE133C7A4B000004A6 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8049FD133C7A4B000004A6 /* libz.dylib */; };
 		3B804A03133C7DC0000004A6 /* CTAWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B804A02133C7DC0000004A6 /* CTAWebService.m */; };
+		3BC6DBC21364AB1500364C8C /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BC6DBC11364AB1500364C8C /* plus.png */; };
+		3BC6DBC51364AC1100364C8C /* gnome_view_refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BC6DBC41364AC1100364C8C /* gnome_view_refresh.png */; };
+		3BC6DBE41364B0D000364C8C /* ScheduleError.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC6DBE31364B0D000364C8C /* ScheduleError.m */; };
+		3BC6DC371364BFA900364C8C /* MyStop.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC6DC301364BFA900364C8C /* MyStop.m */; };
+		3BC6DC381364BFA900364C8C /* Stops.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC6DC321364BFA900364C8C /* Stops.m */; };
+		3BC6DC3A1364BFA900364C8C /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC6DC361364BFA900364C8C /* Route.m */; };
+		3BC6DC3D1364C06D00364C8C /* Direction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC6DC3C1364C06D00364C8C /* Direction.m */; };
+		3BC6DC4F1364C94E00364C8C /* Master.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC6DC4E1364C94E00364C8C /* Master.m */; };
+		3BC9282C133EBBEB0024DBF8 /* BusPrediction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9282B133EBBEB0024DBF8 /* BusPrediction.m */; };
+		3BF9B3B71363820600F51DBF /* StopDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF9B3B61363820600F51DBF /* StopDetail.m */; };
+		3BF9B62413639E7600F51DBF /* MyStopTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BF9B62313639E7600F51DBF /* MyStopTableView.xib */; };
+		3BF9B62813639F3200F51DBF /* MyStopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF9B62713639F3200F51DBF /* MyStopViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D3623240D0F684500981E51 /* CTAAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAAppDelegate.h; sourceTree = "<group>"; };
-		1D3623250D0F684500981E51 /* CTAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAAppDelegate.m; sourceTree = "<group>"; };
+		1D3623240D0F684500981E51 /* CTAAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTAAppDelegate.h; path = Classes/CTAAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* CTAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTAAppDelegate.m; path = Classes/CTAAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* CTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -39,22 +54,47 @@
 		28D801B30F44B63D00FB423F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* CTA_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTA_Prefix.pch; sourceTree = "<group>"; };
-		3B8048FE133C434D000004A6 /* MyStopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyStopViewController.h; sourceTree = "<group>"; };
-		3B8048FF133C434D000004A6 /* MyStopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyStopViewController.m; sourceTree = "<group>"; };
-		3B804900133C434D000004A6 /* MyStopViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MyStopViewController.xib; path = Classes/MyStopViewController.xib; sourceTree = "<group>"; };
-		3B804904133C4394000004A6 /* BusLookUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusLookUpViewController.h; sourceTree = "<group>"; };
-		3B804905133C4394000004A6 /* BusLookUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusLookUpViewController.m; sourceTree = "<group>"; };
+		3B0B9796135BBF0100FA1A69 /* StopDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StopDetailViewController.h; path = Classes/StopDetailViewController.h; sourceTree = "<group>"; };
+		3B0B9797135BBF0100FA1A69 /* StopDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StopDetailViewController.m; path = Classes/StopDetailViewController.m; sourceTree = "<group>"; };
+		3B0B984D135BD28700FA1A69 /* PredictionCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PredictionCellView.xib; path = Classes/PredictionCellView.xib; sourceTree = "<group>"; };
+		3B1BE856135D2E2B00EE5CD9 /* AllRoutesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AllRoutesViewController.h; path = Classes/AllRoutesViewController.h; sourceTree = "<group>"; };
+		3B1BE857135D2E2B00EE5CD9 /* AllRoutesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AllRoutesViewController.m; path = Classes/AllRoutesViewController.m; sourceTree = "<group>"; };
+		3B1BE8CA135D402600EE5CD9 /* StopDetailHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StopDetailHeader.xib; sourceTree = "<group>"; };
+		3B1BE900135D573500EE5CD9 /* 2009_01_01_CTA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2009_01_01_CTA.jpg; sourceTree = "<group>"; };
+		3B1D94371342B83700D62580 /* StopsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StopsViewController.xib; path = Classes/StopsViewController.xib; sourceTree = "<group>"; };
+		3B804904133C4394000004A6 /* BusLookUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BusLookUpViewController.h; path = Classes/BusLookUpViewController.h; sourceTree = "<group>"; };
+		3B804905133C4394000004A6 /* BusLookUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BusLookUpViewController.m; path = Classes/BusLookUpViewController.m; sourceTree = "<group>"; wrapsLines = 1; };
 		3B804906133C4394000004A6 /* BusLookUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = BusLookUpViewController.xib; path = Classes/BusLookUpViewController.xib; sourceTree = "<group>"; };
-		3B80491A133C5218000004A6 /* AllStopsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllStopsViewController.h; sourceTree = "<group>"; };
-		3B80491B133C5218000004A6 /* AllStopsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllStopsViewController.m; sourceTree = "<group>"; };
-		3B80491C133C5218000004A6 /* AllStopsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AllStopsViewController.xib; path = Classes/AllStopsViewController.xib; sourceTree = "<group>"; };
+		3B80491A133C5218000004A6 /* AllStopsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AllStopsViewController.h; path = Classes/AllStopsViewController.h; sourceTree = "<group>"; };
+		3B80491B133C5218000004A6 /* AllStopsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AllStopsViewController.m; path = Classes/AllStopsViewController.m; sourceTree = "<group>"; };
 		3B8049F7133C79F5000004A6 /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAdditions.h; sourceTree = "<group>"; };
 		3B8049F8133C79F5000004A6 /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
 		3B8049F9133C79F5000004A6 /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
 		3B8049FA133C79F5000004A6 /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
 		3B8049FD133C7A4B000004A6 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		3B804A01133C7DC0000004A6 /* CTAWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAWebService.h; sourceTree = "<group>"; };
-		3B804A02133C7DC0000004A6 /* CTAWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAWebService.m; sourceTree = "<group>"; };
+		3B804A01133C7DC0000004A6 /* CTAWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTAWebService.h; path = Classes/CTAWebService.h; sourceTree = "<group>"; };
+		3B804A02133C7DC0000004A6 /* CTAWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTAWebService.m; path = Classes/CTAWebService.m; sourceTree = "<group>"; };
+		3BC6DBC11364AB1500364C8C /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plus.png; path = ../../Downloads/plus.png; sourceTree = SOURCE_ROOT; };
+		3BC6DBC41364AC1100364C8C /* gnome_view_refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gnome_view_refresh.png; path = ../../Downloads/gnome_view_refresh.png; sourceTree = SOURCE_ROOT; };
+		3BC6DBE21364B0D000364C8C /* ScheduleError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleError.h; sourceTree = "<group>"; };
+		3BC6DBE31364B0D000364C8C /* ScheduleError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleError.m; sourceTree = "<group>"; };
+		3BC6DC2F1364BFA900364C8C /* MyStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyStop.h; sourceTree = "<group>"; };
+		3BC6DC301364BFA900364C8C /* MyStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyStop.m; sourceTree = "<group>"; };
+		3BC6DC311364BFA900364C8C /* Stops.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stops.h; sourceTree = "<group>"; };
+		3BC6DC321364BFA900364C8C /* Stops.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stops.m; sourceTree = "<group>"; };
+		3BC6DC351364BFA900364C8C /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
+		3BC6DC361364BFA900364C8C /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Route.m; sourceTree = "<group>"; };
+		3BC6DC3B1364C06D00364C8C /* Direction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Direction.h; sourceTree = "<group>"; };
+		3BC6DC3C1364C06D00364C8C /* Direction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Direction.m; sourceTree = "<group>"; };
+		3BC6DC4D1364C94E00364C8C /* Master.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Master.h; sourceTree = "<group>"; };
+		3BC6DC4E1364C94E00364C8C /* Master.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Master.m; sourceTree = "<group>"; };
+		3BC9282A133EBBEB0024DBF8 /* BusPrediction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BusPrediction.h; path = Classes/BusPrediction.h; sourceTree = "<group>"; };
+		3BC9282B133EBBEB0024DBF8 /* BusPrediction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BusPrediction.m; path = Classes/BusPrediction.m; sourceTree = "<group>"; };
+		3BF9B3B51363820600F51DBF /* StopDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopDetail.h; sourceTree = "<group>"; };
+		3BF9B3B61363820600F51DBF /* StopDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopDetail.m; sourceTree = "<group>"; };
+		3BF9B62313639E7600F51DBF /* MyStopTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyStopTableView.xib; sourceTree = "<group>"; };
+		3BF9B62613639F3200F51DBF /* MyStopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyStopViewController.h; path = Classes/MyStopViewController.h; sourceTree = "<group>"; };
+		3BF9B62713639F3200F51DBF /* MyStopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyStopViewController.m; path = Classes/MyStopViewController.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CTA-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CTA-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,23 +114,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		080E96DDFE201D6D7F000001 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				1D3623240D0F684500981E51 /* CTAAppDelegate.h */,
-				1D3623250D0F684500981E51 /* CTAAppDelegate.m */,
-				3B8048FE133C434D000004A6 /* MyStopViewController.h */,
-				3B8048FF133C434D000004A6 /* MyStopViewController.m */,
-				3B804904133C4394000004A6 /* BusLookUpViewController.h */,
-				3B804905133C4394000004A6 /* BusLookUpViewController.m */,
-				3B80491A133C5218000004A6 /* AllStopsViewController.h */,
-				3B80491B133C5218000004A6 /* AllStopsViewController.m */,
-				3B804A01133C7DC0000004A6 /* CTAWebService.h */,
-				3B804A02133C7DC0000004A6 /* CTAWebService.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,8 +125,13 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				3BC6DBDE1364AE9D00364C8C /* Images */,
+				3BC6DBDD1364AE8C00364C8C /* Main Window */,
+				3BC6DBD01364AE4A00364C8C /* Service */,
+				3BC6DBCF1364AE3000364C8C /* View Controllers */,
+				3BF9B3B4136381EA00F51DBF /* Data Transfer */,
+				3BF9B2F5136370BC00F51DBF /* Model Classes */,
 				3B8049F5133C79A5000004A6 /* TBXML */,
-				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
@@ -117,7 +145,6 @@
 			isa = PBXGroup;
 			children = (
 				32CA4F630368D1EE00C91783 /* CTA_Prefix.pch */,
-				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -125,12 +152,13 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3B80491C133C5218000004A6 /* AllStopsViewController.xib */,
+				3B0B984D135BD28700FA1A69 /* PredictionCellView.xib */,
+				3B1D94371342B83700D62580 /* StopsViewController.xib */,
 				3B804906133C4394000004A6 /* BusLookUpViewController.xib */,
-				3B804900133C434D000004A6 /* MyStopViewController.xib */,
-				2819305F112F816700ECF9B4 /* CTA.xcdatamodeld */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* CTA-Info.plist */,
+				3B1BE8CA135D402600EE5CD9 /* StopDetailHeader.xib */,
+				3BF9B62313639E7600F51DBF /* MyStopTableView.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -155,6 +183,83 @@
 				3B8049FA133C79F5000004A6 /* TBXML.m */,
 			);
 			name = TBXML;
+			sourceTree = "<group>";
+		};
+		3BC6DBCF1364AE3000364C8C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3B0B9796135BBF0100FA1A69 /* StopDetailViewController.h */,
+				3B0B9797135BBF0100FA1A69 /* StopDetailViewController.m */,
+				3B1BE856135D2E2B00EE5CD9 /* AllRoutesViewController.h */,
+				3B1BE857135D2E2B00EE5CD9 /* AllRoutesViewController.m */,
+				3BF9B62613639F3200F51DBF /* MyStopViewController.h */,
+				3BF9B62713639F3200F51DBF /* MyStopViewController.m */,
+				3B804904133C4394000004A6 /* BusLookUpViewController.h */,
+				3B804905133C4394000004A6 /* BusLookUpViewController.m */,
+				3B80491A133C5218000004A6 /* AllStopsViewController.h */,
+				3B80491B133C5218000004A6 /* AllStopsViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		3BC6DBD01364AE4A00364C8C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3B804A01133C7DC0000004A6 /* CTAWebService.h */,
+				3B804A02133C7DC0000004A6 /* CTAWebService.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		3BC6DBDD1364AE8C00364C8C /* Main Window */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				1D3623240D0F684500981E51 /* CTAAppDelegate.h */,
+				1D3623250D0F684500981E51 /* CTAAppDelegate.m */,
+			);
+			name = "Main Window";
+			sourceTree = "<group>";
+		};
+		3BC6DBDE1364AE9D00364C8C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3BC6DBC41364AC1100364C8C /* gnome_view_refresh.png */,
+				3BC6DBC11364AB1500364C8C /* plus.png */,
+				3B1BE900135D573500EE5CD9 /* 2009_01_01_CTA.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		3BF9B2F5136370BC00F51DBF /* Model Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3BC6DC4D1364C94E00364C8C /* Master.h */,
+				3BC6DC4E1364C94E00364C8C /* Master.m */,
+				3BC6DC3B1364C06D00364C8C /* Direction.h */,
+				3BC6DC3C1364C06D00364C8C /* Direction.m */,
+				2819305F112F816700ECF9B4 /* CTA.xcdatamodeld */,
+				3BC6DC2F1364BFA900364C8C /* MyStop.h */,
+				3BC6DC301364BFA900364C8C /* MyStop.m */,
+				3BC6DC311364BFA900364C8C /* Stops.h */,
+				3BC6DC321364BFA900364C8C /* Stops.m */,
+				3BC6DC351364BFA900364C8C /* Route.h */,
+				3BC6DC361364BFA900364C8C /* Route.m */,
+			);
+			name = "Model Classes";
+			sourceTree = "<group>";
+		};
+		3BF9B3B4136381EA00F51DBF /* Data Transfer */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9282A133EBBEB0024DBF8 /* BusPrediction.h */,
+				3BC9282B133EBBEB0024DBF8 /* BusPrediction.m */,
+				3BF9B3B51363820600F51DBF /* StopDetail.h */,
+				3BF9B3B61363820600F51DBF /* StopDetail.m */,
+				3BC6DBE21364B0D000364C8C /* ScheduleError.h */,
+				3BC6DBE31364B0D000364C8C /* ScheduleError.m */,
+			);
+			name = "Data Transfer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,9 +305,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
-				3B804902133C434D000004A6 /* MyStopViewController.xib in Resources */,
 				3B804908133C4394000004A6 /* BusLookUpViewController.xib in Resources */,
-				3B80491E133C5218000004A6 /* AllStopsViewController.xib in Resources */,
+				3B1D94391342B83700D62580 /* StopsViewController.xib in Resources */,
+				3B0B984E135BD28700FA1A69 /* PredictionCellView.xib in Resources */,
+				3B1BE8CB135D402600EE5CD9 /* StopDetailHeader.xib in Resources */,
+				3B1BE901135D573500EE5CD9 /* 2009_01_01_CTA.jpg in Resources */,
+				3BF9B62413639E7600F51DBF /* MyStopTableView.xib in Resources */,
+				3BC6DBC21364AB1500364C8C /* plus.png in Resources */,
+				3BC6DBC51364AC1100364C8C /* gnome_view_refresh.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,12 +326,22 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* CTAAppDelegate.m in Sources */,
 				28193060112F816700ECF9B4 /* CTA.xcdatamodeld in Sources */,
-				3B804901133C434D000004A6 /* MyStopViewController.m in Sources */,
 				3B804907133C4394000004A6 /* BusLookUpViewController.m in Sources */,
 				3B80491D133C5218000004A6 /* AllStopsViewController.m in Sources */,
 				3B8049FB133C79F5000004A6 /* NSDataAdditions.m in Sources */,
 				3B8049FC133C79F5000004A6 /* TBXML.m in Sources */,
 				3B804A03133C7DC0000004A6 /* CTAWebService.m in Sources */,
+				3BC9282C133EBBEB0024DBF8 /* BusPrediction.m in Sources */,
+				3B0B9799135BBF0100FA1A69 /* StopDetailViewController.m in Sources */,
+				3B1BE858135D2E2B00EE5CD9 /* AllRoutesViewController.m in Sources */,
+				3BF9B3B71363820600F51DBF /* StopDetail.m in Sources */,
+				3BF9B62813639F3200F51DBF /* MyStopViewController.m in Sources */,
+				3BC6DBE41364B0D000364C8C /* ScheduleError.m in Sources */,
+				3BC6DC371364BFA900364C8C /* MyStop.m in Sources */,
+				3BC6DC381364BFA900364C8C /* Stops.m in Sources */,
+				3BC6DC3A1364BFA900364C8C /* Route.m in Sources */,
+				3BC6DC3D1364C06D00364C8C /* Direction.m in Sources */,
+				3BC6DC4F1364C94E00364C8C /* Master.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

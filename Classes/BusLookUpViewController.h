@@ -8,25 +8,22 @@
 
 #import <UIKit/UIKit.h>
 
-#define kFirstDigit	0
-#define kSecondDigit 1
-#define kThirdDigit 2
-#define kFourthDigit 3
+@interface BusLookUpViewController : UIViewController<UIActionSheetDelegate>{
 
-@interface BusLookUpViewController : UIViewController<UIPickerViewDelegate, UIPickerViewDataSource> {
-
-	UIPickerView *picker;
+	UITextField *field;
 	UIButton *goBtn;
-	
-	NSArray *digits;
-	NSArray *letters;
-}
-@property(nonatomic,retain) IBOutlet UIPickerView *picker;
-@property(nonatomic,retain) IBOutlet UIButton *goBtn;
-@property(nonatomic,retain) NSArray *digits;
-@property(nonatomic,retain) NSArray *letters;
+	NSArray *directions;
 
--(IBAction)routeValueChanged;
+}
+
+@property(nonatomic,retain) NSArray *directions;
+@property(nonatomic,retain) IBOutlet UIButton *goBtn;
+
+@property(nonatomic,retain) IBOutlet UITextField *field;
+
+-(IBAction) textFieldDoneEditing:(id)sender;
+-(IBAction) backgroundTap:(id)sender;
+
 -(IBAction)findStopsForKnownRoute;
 -(IBAction)showAllRoutes;
 

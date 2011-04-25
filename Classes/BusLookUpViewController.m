@@ -3,62 +3,68 @@
 //  CTA
 //
 //  Created by Vj on 3/24/11.
-//  Copyright 2011 nistranii.com. All rights reserved.
+//  Copyright 2011 nistantrii.com. All rights reserved.
 //
 
 #import "BusLookUpViewController.h"
-
+#import "AllStopsViewController.h"
+#import "CTAWebService.h"
+#import "AllRoutesViewController.h"
 
 @implementation BusLookUpViewController
 
-@synthesize picker;
 @synthesize goBtn;
-@synthesize digits;
-@synthesize letters;
-
-- (void)viewDidLoad {
-	NSArray *initDigits = [[NSArray alloc] initWithObjects:@" ",@"1",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9",nil];
-	self.digits=initDigits;
-	[initDigits release];
-	
-	
-	NSArray *initLetters = [[NSArray alloc] initWithObjects:@" ",@"x",nil];
-	self.letters=initLetters;
-	[initLetters release];
-	
-	[super viewDidLoad];
-}
-
--(IBAction)routeValueChanged {
-	NSLog(@"trmTxt value");	
-}
+@synthesize field;
+@synthesize directions;
 
 -(IBAction)findStopsForKnownRoute{
-	NSLog(@"IN findStopsForKnownRoute");
+	[field resignFirstResponder];
+	
+	CTAWebService *service = [CTAWebService sharedInstance];
+	NSArray *fdirections = [service busDirectionForRoute:field.text];
+	self.directions = fdirections;
+	[fdirections release];
+	
+	// open a dialog with two custom buttons
+	UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:@"Choose Bus Direction"
+															 delegate:self cancelButtonTitle:nil destructiveButtonTitle:nil
+													otherButtonTitles:nil];
+	actionSheet.actionSheetStyle = UIActionSheetStyleBlackTranslucent;
+	actionSheet.destructiveButtonIndex = 2;
+	[actionSheet addButtonWithTitle:[directions objectAtIndex:0]];
+	[actionSheet addButtonWithTitle:[directions objectAtIndex:1]];
+	[actionSheet addButtonWithTitle:@"Cancel"];
+	[actionSheet showInView:self.view]; // show from our table view (pops up in the middle of the table)
+	[actionSheet release];
+	
+}
+
+- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+	if(buttonIndex != 2 ) {
+	AllStopsViewController *viewController =[[AllStopsViewController alloc] initWithStyle:UITableViewStylePlain];
+	
+	viewController.routeId = field.text;
+	viewController.direction = [self.directions objectAtIndex:buttonIndex];
+	[self.navigationController pushViewController:viewController animated:YES];
+	[viewController release];
+	}
 }
 
 -(IBAction) showAllRoutes {
 	NSLog(@"IN all stops");
+	AllRoutesViewController *viewController =[[AllRoutesViewController alloc] initWithStyle:UITableViewStylePlain];
+	[self.navigationController pushViewController:viewController animated:YES];
+	[viewController release];
+}
+-(IBAction) textFieldDoneEditing:(id)sender {
+	[sender resignFirstResponder];
+	[self findStopsForKnownRoute];
 }
 
-- (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView {
-	return 4;
-}
-
-- (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component {
-	if (component == kFourthDigit) {
-		return [self.letters count];
-	}
-	
-	return [self.digits count];
-}
-
-- (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component {
-	
-	if(component == kFourthDigit)
-		return [self.letters objectAtIndex:row];
-	
-	return [self.digits objectAtIndex:row];
+// wtf??
+-(IBAction) backgroundTap:(id)sender {
+	[field resignFirstResponder];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -69,10 +75,8 @@
 }
 
 - (void)viewDidUnload {
-	self.digits = nil;
-	self.letters = nil;
+	self.field = nil;
 	self.goBtn = nil;
-	self.picker = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -80,10 +84,8 @@
 
 
 - (void)dealloc {
-	[self.picker release];
 	[self.goBtn release];
-	[self.digits release];
-	[self.letters release];
+	[self.field release];
     [super dealloc];
 }
 

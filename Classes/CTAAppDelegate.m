@@ -7,18 +7,60 @@
 //
 
 #import "CTAAppDelegate.h"
+#import "Master.h"
+
+@interface CTAAppDelegate (private)
+
+-(void) wakeMaster:(Master *) master; 
+- (Master *) fetchMaster;
+
+@end
 
 
 @implementation CTAAppDelegate
 
 @synthesize window;
 @synthesize rootController;
+@synthesize masterRec;
+
+-(void) showError:(NSError *)error {
+	NSString *errorMessage = [error localizedDescription];
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Damn, What you did?"
+														message:errorMessage
+													   delegate:nil
+											  cancelButtonTitle:@"OK"
+											  otherButtonTitles:nil];
+    [alertView show];
+    [alertView release];
+}
+
 
 #pragma mark -
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
 	
+	Master *master = [self fetchMaster];
+	
+	// nil means bootstrap the baby.  
+	if(master == nil){
+		
+		//wake master.
+		master = (Master *)[NSEntityDescription insertNewObjectForEntityForName:@"Master" 
+															   inManagedObjectContext:self.managedObjectContext];
+		[self wakeMaster:master];
+		
+	} else {
+		NSTimeInterval timeInterval = [[NSDate date] timeIntervalSinceDate:master.lastUpdated];
+		
+		//wake master if last update was 14 days ago.
+		if(timeInterval >= (14*24*60*60)){
+			[self wakeMaster:master];
+		}
+	}
+	
+	self.masterRec = master;
+
     // Override point for customization after application launch.
 	[window addSubview:rootController.view];
     [window makeKeyAndVisible];
@@ -26,6 +68,50 @@
 	return YES;
 }
 
+-(Master *) fetchMaster {
+	NSEntityDescription *desc = [NSEntityDescription entityForName:@"Master" inManagedObjectContext:self.managedObjectContext];
+	
+	NSFetchRequest *req = [[NSFetchRequest alloc] init];
+	[req setEntity:desc];
+	
+	NSError *err;
+	NSArray *objs = [self.managedObjectContext executeFetchRequest:req error:&err];
+	
+	if ([objs count] == 0) {
+		return nil;
+	}
+	[req release];
+	Master *master = (Master *) [objs objectAtIndex:0];
+	return master;
+}
+
+-(void) updateMasterWithRoute:(NSInteger) route andStop:(NSUInteger) stop {
+	Master *master = [self fetchMaster];
+	if (route != -1) {
+		master.loadRoute = [NSNumber numberWithInt:route];
+	}
+	if (stop != -1) {
+		master.loadStops = [NSNumber numberWithInt:stop];
+	}
+	
+	NSError *error;
+	if (![self.managedObjectContext save:&error]) {
+		[self showError:error];
+	}
+	
+	self.masterRec = master;
+}
+
+-(void) wakeMaster:(Master *) master {
+	master.lastUpdated = [NSDate date];
+	master.loadRoute = [NSNumber numberWithBool:YES];
+	master.loadStops = [NSNumber numberWithBool:YES];
+	
+	NSError *error;
+	if (![self.managedObjectContext save:&error]) {
+		[self showError:error];
+	}
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     /*
