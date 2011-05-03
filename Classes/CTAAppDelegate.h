@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
-#import "BusLookUpViewController.h"
 
 #define UIAppDelegate ((CTAAppDelegate *)[UIApplication sharedApplication].delegate)
 
@@ -18,24 +17,21 @@
     
     UIWindow *window;
     UITabBarController *rootController;
-	
-	Master *masterRec;
-	
+
 @private
+    Master *master;
     NSManagedObjectContext *managedObjectContext_;
     NSManagedObjectModel *managedObjectModel_;
     NSPersistentStoreCoordinator *persistentStoreCoordinator_;
 }
-
+@property (nonatomic,retain) Master *master;
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property(nonatomic,retain) Master *masterRec;
 @property (nonatomic, retain, readonly) NSManagedObjectContext *managedObjectContext;
 @property (nonatomic, retain, readonly) NSManagedObjectModel *managedObjectModel;
 @property (nonatomic, retain, readonly) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 @property (nonatomic,retain) IBOutlet UITabBarController *rootController;
 
 -(void) showError:(NSError *)error;
--(void) updateMasterWithRoute:(NSInteger) route andStop:(NSUInteger) stop;
 - (NSString *)applicationDocumentsDirectory;
 
 @end

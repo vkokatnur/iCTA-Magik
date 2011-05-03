@@ -2,22 +2,17 @@
 //  Master.h
 //  CTA
 //
-//  Created by Vj on 4/24/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Created by Vijay Kokatnur on 5/2/11.
+//  Copyright (c) 2011 Nistantrii. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
 
-@interface Master :  NSManagedObject  
-{
+@interface Master : NSManagedObject {
+@private
 }
-
-@property (nonatomic, retain) NSNumber * loadRoute;
-@property (nonatomic, retain) NSNumber * loadStops;
-@property (nonatomic, retain) NSDate * lastUpdated;
+@property (nonatomic, retain) NSDate * lastRouteUpdate;
 
 @end
-
-
-

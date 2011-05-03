@@ -8,17 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
+@class Route;
 
-@interface AllRoutesViewController : UITableViewController<UIActionSheetDelegate, UITableViewDelegate,UITableViewDataSource> {
-	
-	NSArray *routes;
+@interface AllRoutesViewController : UITableViewController<UIActionSheetDelegate, UITableViewDelegate,UITableViewDataSource,NSFetchedResultsControllerDelegate> {
 
-	NSString *selectedRouteId;
-	NSArray *directions;
+	Route *selectedRoute;
+    
+@private
+	NSFetchedResultsController *fetchedResultsController;
+	NSManagedObjectContext *managedObjectContext;
 }
-@property(nonatomic,retain) NSArray *routes;
 
-@property(nonatomic,retain) NSArray *directions;
-@property(nonatomic,retain) NSString *selectedRouteId;
+@property(nonatomic,retain) Route *selectedRoute;
+@property (nonatomic, retain) NSFetchedResultsController *fetchedResultsController;
+@property (nonatomic, retain) NSManagedObjectContext *managedObjectContext;
 
 @end

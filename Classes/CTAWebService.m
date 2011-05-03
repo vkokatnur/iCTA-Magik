@@ -12,8 +12,8 @@
 #import "BusPrediction.h"
 #import "ScheduleError.h"
 #import "CTAAppDelegate.h"
-#import "Master.h"
 #import "Route.h"
+#import "Master.h"
 #import "Direction.h"
 
 NSString * const API_KEY = @"aTQExNWqZQzigvDmrmLE9ZQnZ";
@@ -38,7 +38,7 @@ static CTAWebService *ctaSharedInstance;
 
 @interface CTAWebService (daoMethods) 
 -(NSManagedObjectContext *) initiateContext;
--(NSFetchRequest *) initiateFetchFor:(NSString *) modelName sortBy:(NSString *) sortColumn;
+-(BOOL) isItUpdateTime;
 @end
 
 @implementation CTAWebService
@@ -65,22 +65,16 @@ static CTAWebService *ctaSharedInstance;
 	return importContext;
 }
 
--(NSFetchRequest *) initiateFetchFor:(NSString *) modelName sortBy :(NSString *) sortColumn {
+-(NSManagedObject *) initiateFetchFor:(NSString *)modelName forKey:(NSString *) key andValue:(NSString *) value {
 	NSEntityDescription *desc = [NSEntityDescription entityForName:modelName 
 											inManagedObjectContext:UIAppDelegate.managedObjectContext];
 	
 	NSFetchRequest *req = [[NSFetchRequest alloc] init];
-	
-	if(sortColumn != nil) {
-		NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:sortColumn ascending:YES];
-		NSArray *sortDescriptors = [[NSArray alloc] initWithObjects:sortDescriptor, nil];
-		[req setSortDescriptors:sortDescriptors];
-		
-	}
+    [req setPredicate:[NSPredicate predicateWithFormat:@"%K == %@", key, value]];
 	[req setEntity:desc];
 	
-	return req;
-	
+    NSManagedObject *managedObject = [[UIAppDelegate.managedObjectContext executeFetchRequest:req error:nil] lastObject];
+	return managedObject;
 }
 
 
@@ -121,9 +115,23 @@ static CTAWebService *ctaSharedInstance;
 	return date;
 }
 
--(NSArray *) getAllRoutes {
-	NSLog(@"%i",[UIAppDelegate.masterRec.loadRoute boolValue]);
-	if ([UIAppDelegate.masterRec.loadRoute boolValue] == YES) {
+-(BOOL) isItUpdateTime{
+        NSLog(@"%@",UIAppDelegate.master.lastRouteUpdate);
+        if (UIAppDelegate.master.lastRouteUpdate == nil) 
+            return  YES;
+        
+        //every 20 days - Diced it.
+        NSDate *lastDate = UIAppDelegate.master.lastRouteUpdate;
+        NSTimeInterval updateRequired = [lastDate timeIntervalSinceNow];
+        
+        if(updateRequired >= (20*24*60*60)){
+            return YES;
+        }
+        return NO;
+}
+
+-(void) initRoutes {
+	if ([self isItUpdateTime]) {
 		
 		NSManagedObjectContext *importContext = [self initiateContext];
 		
@@ -136,6 +144,22 @@ static CTAWebService *ctaSharedInstance;
 		
 		TBXMLElement *busRouteElement = [TBXML childElementNamed:@"route" parentElement:rootElement];
 		
+        NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+        NSEntityDescription *entity = [NSEntityDescription entityForName:@"Route" inManagedObjectContext:[UIAppDelegate managedObjectContext]];
+        
+        // Optionally add an NSPredicate if you only want to delete some of the objects.
+        
+        [fetchRequest setEntity:entity];
+        
+        NSArray *myObjectsToDelete = [[UIAppDelegate managedObjectContext] executeFetchRequest:fetchRequest error:nil];
+        
+        if(nil != myObjectsToDelete){
+            for (Route *route in myObjectsToDelete) {
+                [[UIAppDelegate managedObjectContext] deleteObject:route];
+            }
+            [[UIAppDelegate managedObjectContext] save:nil];
+        }
+        
 		NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
 		
 		while(busRouteElement != nil){
@@ -152,31 +176,28 @@ static CTAWebService *ctaSharedInstance;
 		
 		NSError *error;
 		if(![importContext save:&error]){
-			NSLog(@"%d", [error localizedDescription]);
+            [UIAppDelegate showError:error];
 		}
-		
+        [importContext reset]; 
+		[pool drain];
+        
 		self.busData=nil;
 		[tbxml release];
 		
-		[UIAppDelegate updateMasterWithRoute:0 andStop:-1];
-		[importContext reset]; 
-		[pool drain];
-		
-	} 
-	NSFetchRequest *req = [self initiateFetchFor:@"Route" sortBy:@"routeNumber"];
-	
-	NSArray *objs = [UIAppDelegate.managedObjectContext executeFetchRequest:req error:nil];
-	
-	NSLog(@"count %d", [objs count]);
-	[req release];
-	return objs;
+        entity = [NSEntityDescription entityForName:@"Master" inManagedObjectContext:[UIAppDelegate managedObjectContext]];
+        [fetchRequest setEntity:entity];
+        
+        Master *masterRec = [[[UIAppDelegate managedObjectContext] executeFetchRequest:fetchRequest error:nil] lastObject];
+
+        masterRec.lastRouteUpdate = [NSDate date];
+        
+        [[UIAppDelegate managedObjectContext] save:nil];
+    }
 }
 
--(NSArray *) busDirectionForRoute:(Route *) route {
-	
-	NSArray *objs = [[NSArray alloc] initWithArray:[route.directions allObjects]];
-	
-	if([objs count] == 0){
+-(void) busDirectionForRoute:(Route *) route {
+		
+	if([[route.directions allObjects] count] == 0){
 		
 		NSString *queryParams = [[NSString alloc] initWithFormat:@"%@key=%@&rt=%@", ROUTE_DIRECTION, API_KEY,route.routeNumber];
 		[self initConnection:queryParams];
@@ -200,11 +221,8 @@ static CTAWebService *ctaSharedInstance;
 		if (![context save:&error]) {
 			NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
 		}
-		
-		objs = [[NSArray alloc] initWithArray:[route.directions allObjects]];
 		self.busData=nil;
 	}
-	return objs; 
 }
 
 -(NSDictionary *) busStopsForRoute:(NSString *) routeNumber andDirection:(NSString *) direction{

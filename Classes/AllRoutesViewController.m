@@ -11,12 +11,13 @@
 #import "AllStopsViewController.h"
 #import "Route.h"
 #import "Direction.h"
+#import "CTAAppDelegate.h"
 
 @implementation AllRoutesViewController
 
-@synthesize routes;
-@synthesize selectedRouteId;
-@synthesize directions;
+@synthesize selectedRoute;
+@synthesize fetchedResultsController;
+@synthesize managedObjectContext;
 
 #pragma mark -
 #pragma mark View lifecycle
@@ -25,8 +26,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-	CTAWebService *webService = [CTAWebService sharedInstance];
-	self.routes = [webService getAllRoutes];
+    self.managedObjectContext = UIAppDelegate.managedObjectContext;
 }
 
 #pragma mark -
@@ -38,9 +38,51 @@
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return [self.routes count];
+    NSInteger numberOfRows = 0;
+	
+    if ([[fetchedResultsController sections] count] > 0) {
+        id <NSFetchedResultsSectionInfo> sectionInfo = [[fetchedResultsController sections] objectAtIndex:section];
+        numberOfRows = [sectionInfo numberOfObjects];
+    }
+    
+    return numberOfRows;
 }
 
+
+- (NSFetchedResultsController *)fetchedResultsController {
+    
+    [[CTAWebService sharedInstance] initRoutes];
+    // Set up the fetched results controller if needed.
+    if (fetchedResultsController == nil) {
+        // Create the fetch request for the entity.
+        NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+        // Edit the entity name as appropriate.
+        NSEntityDescription *entity = [NSEntityDescription entityForName:@"Route" inManagedObjectContext:managedObjectContext];
+        [fetchRequest setEntity:entity];
+        
+        // Edit the sort key as appropriate.
+        NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"routeNumber" ascending:YES];
+        NSArray *sortDescriptors = [[NSArray alloc] initWithObjects:sortDescriptor, nil];
+        
+        [fetchRequest setSortDescriptors:sortDescriptors];
+        
+        // Edit the section name key path and cache name if appropriate.
+        // nil for section name key path means "no sections".
+        NSFetchedResultsController *aFetchedResultsController = [[NSFetchedResultsController alloc] 
+																 initWithFetchRequest:fetchRequest 
+                                                                 managedObjectContext:managedObjectContext sectionNameKeyPath:nil 
+                                                                 cacheName:nil];
+        aFetchedResultsController.delegate = self;
+        self.fetchedResultsController = aFetchedResultsController;
+        
+        [aFetchedResultsController release];
+        [fetchRequest release];
+        [sortDescriptor release];
+        [sortDescriptors release];
+    }
+	
+	return fetchedResultsController;
+} 
 
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -52,9 +94,8 @@
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
     }
     
-	NSUInteger row = [indexPath row];
-	Route *route = (Route *) [self.routes objectAtIndex:row];
-		
+	Route *route = (Route *)[fetchedResultsController objectAtIndexPath:indexPath];
+
 	cell.textLabel.text = route.name;
 	cell.detailTextLabel.text=route.routeNumber;
     
@@ -65,13 +106,12 @@
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	NSUInteger row = [indexPath row];
-	Route *route = (Route *) [self.routes objectAtIndex:row];
+	Route *route = (Route *)[fetchedResultsController objectAtIndexPath:indexPath];
 	
-	self.selectedRouteId = route.routeNumber;
+	self.selectedRoute = route;
 	
 	CTAWebService *service = [CTAWebService sharedInstance];
-	self.directions = [service busDirectionForRoute:route];
+	[service busDirectionForRoute:route];
 	
 	// open a dialog with two custom buttons
 	UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:@"Choose Bus Direction"
@@ -79,8 +119,8 @@
 													otherButtonTitles:nil];
 	
 	actionSheet.actionSheetStyle = UIActionSheetStyleBlackTranslucent;
-	for (int i=0; i<[self.directions count]; i++) {
-		Direction *dir = [self.directions objectAtIndex:i];
+	for (int i=0; i<[[route.directions allObjects]  count]; i++) {
+		Direction *dir = [[route.directions allObjects] objectAtIndex:i];
 		[actionSheet addButtonWithTitle:dir.bound];
 	}
 	
@@ -94,9 +134,9 @@
 {
 	if(buttonIndex != 0 ) {
 		AllStopsViewController *viewController =[[AllStopsViewController alloc] initWithStyle:UITableViewStylePlain];
-		Direction *dir = [self.directions objectAtIndex:buttonIndex - 1];
-		viewController.routeId = self.selectedRouteId;
-		viewController.direction = dir.bound;
+		Direction *dir = [[self.selectedRoute.directions allObjects] objectAtIndex:buttonIndex - 1];
+        self.selectedRoute.mainDirection = dir.bound;
+        viewController.route = self.selectedRoute;
 		[self.navigationController pushViewController:viewController animated:YES];
 		[viewController release];
 	}
@@ -110,12 +150,12 @@
 }
 
 - (void)viewDidUnload {
-	self.routes = nil;
+	self.selectedRoute = nil;
 }
 
 
 - (void)dealloc {
-	[routes release];
+	[self.selectedRoute release];
     [super dealloc];
 }
 

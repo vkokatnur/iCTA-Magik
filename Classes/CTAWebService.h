@@ -32,9 +32,11 @@ extern NSString * const BUS_PREDICTION;
 
 +(CTAWebService *) sharedInstance;
 
+-(NSManagedObject *) initiateFetchFor:(NSString *) modelName forKey:(NSString *) key andValue:(NSString *) value;
+
 -(NSDate *) synchronizeBusTime;
--(NSArray *) getAllRoutes;
--(NSArray *) busDirectionForRoute:(Route *) route;
+-(void) initRoutes;
+-(void) busDirectionForRoute:(Route *) route;
 
 -(NSDictionary *) busStopsForRoute:(NSString *) routeNumber andDirection:(NSString *) direction;
 -(void) busPatternForRoute:(NSString *) routeNumber andPattern:(NSInteger) patternId;

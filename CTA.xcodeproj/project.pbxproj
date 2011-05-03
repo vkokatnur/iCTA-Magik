@@ -28,18 +28,17 @@
 		3B8049FC133C79F5000004A6 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8049FA133C79F5000004A6 /* TBXML.m */; };
 		3B8049FE133C7A4B000004A6 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8049FD133C7A4B000004A6 /* libz.dylib */; };
 		3B804A03133C7DC0000004A6 /* CTAWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B804A02133C7DC0000004A6 /* CTAWebService.m */; };
-		3BC6DBC21364AB1500364C8C /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BC6DBC11364AB1500364C8C /* plus.png */; };
-		3BC6DBC51364AC1100364C8C /* gnome_view_refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BC6DBC41364AC1100364C8C /* gnome_view_refresh.png */; };
 		3BC6DBE41364B0D000364C8C /* ScheduleError.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC6DBE31364B0D000364C8C /* ScheduleError.m */; };
-		3BC6DC371364BFA900364C8C /* MyStop.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC6DC301364BFA900364C8C /* MyStop.m */; };
-		3BC6DC381364BFA900364C8C /* Stops.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC6DC321364BFA900364C8C /* Stops.m */; };
-		3BC6DC3A1364BFA900364C8C /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC6DC361364BFA900364C8C /* Route.m */; };
-		3BC6DC3D1364C06D00364C8C /* Direction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC6DC3C1364C06D00364C8C /* Direction.m */; };
-		3BC6DC4F1364C94E00364C8C /* Master.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC6DC4E1364C94E00364C8C /* Master.m */; };
 		3BC9282C133EBBEB0024DBF8 /* BusPrediction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9282B133EBBEB0024DBF8 /* BusPrediction.m */; };
 		3BF9B3B71363820600F51DBF /* StopDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF9B3B61363820600F51DBF /* StopDetail.m */; };
 		3BF9B62413639E7600F51DBF /* MyStopTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BF9B62313639E7600F51DBF /* MyStopTableView.xib */; };
 		3BF9B62813639F3200F51DBF /* MyStopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF9B62713639F3200F51DBF /* MyStopViewController.m */; };
+		CBE49836136F8614004CC10D /* 1304383097_Refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = CBE49835136F8614004CC10D /* 1304383097_Refresh.png */; };
+		CBE49838136F86DA004CC10D /* 1304383280_Add.png in Resources */ = {isa = PBXBuildFile; fileRef = CBE49837136F86DA004CC10D /* 1304383280_Add.png */; };
+		CBE4983E136F88DB004CC10D /* Direction.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE4983D136F88DB004CC10D /* Direction.m */; };
+		CBE49841136F88DC004CC10D /* MyStop.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE49840136F88DC004CC10D /* MyStop.m */; };
+		CBE49844136F8A6A004CC10D /* Master.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE49843136F8A6A004CC10D /* Master.m */; };
+		CBE49847136F94B1004CC10D /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE49846136F94B1004CC10D /* Route.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,20 +73,8 @@
 		3B8049FD133C7A4B000004A6 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		3B804A01133C7DC0000004A6 /* CTAWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTAWebService.h; path = Classes/CTAWebService.h; sourceTree = "<group>"; };
 		3B804A02133C7DC0000004A6 /* CTAWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTAWebService.m; path = Classes/CTAWebService.m; sourceTree = "<group>"; };
-		3BC6DBC11364AB1500364C8C /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plus.png; path = ../../Downloads/plus.png; sourceTree = SOURCE_ROOT; };
-		3BC6DBC41364AC1100364C8C /* gnome_view_refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gnome_view_refresh.png; path = ../../Downloads/gnome_view_refresh.png; sourceTree = SOURCE_ROOT; };
 		3BC6DBE21364B0D000364C8C /* ScheduleError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleError.h; sourceTree = "<group>"; };
 		3BC6DBE31364B0D000364C8C /* ScheduleError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleError.m; sourceTree = "<group>"; };
-		3BC6DC2F1364BFA900364C8C /* MyStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyStop.h; sourceTree = "<group>"; };
-		3BC6DC301364BFA900364C8C /* MyStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyStop.m; sourceTree = "<group>"; };
-		3BC6DC311364BFA900364C8C /* Stops.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stops.h; sourceTree = "<group>"; };
-		3BC6DC321364BFA900364C8C /* Stops.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stops.m; sourceTree = "<group>"; };
-		3BC6DC351364BFA900364C8C /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
-		3BC6DC361364BFA900364C8C /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Route.m; sourceTree = "<group>"; };
-		3BC6DC3B1364C06D00364C8C /* Direction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Direction.h; sourceTree = "<group>"; };
-		3BC6DC3C1364C06D00364C8C /* Direction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Direction.m; sourceTree = "<group>"; };
-		3BC6DC4D1364C94E00364C8C /* Master.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Master.h; sourceTree = "<group>"; };
-		3BC6DC4E1364C94E00364C8C /* Master.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Master.m; sourceTree = "<group>"; };
 		3BC9282A133EBBEB0024DBF8 /* BusPrediction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BusPrediction.h; path = Classes/BusPrediction.h; sourceTree = "<group>"; };
 		3BC9282B133EBBEB0024DBF8 /* BusPrediction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BusPrediction.m; path = Classes/BusPrediction.m; sourceTree = "<group>"; };
 		3BF9B3B51363820600F51DBF /* StopDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopDetail.h; sourceTree = "<group>"; };
@@ -96,6 +83,16 @@
 		3BF9B62613639F3200F51DBF /* MyStopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyStopViewController.h; path = Classes/MyStopViewController.h; sourceTree = "<group>"; };
 		3BF9B62713639F3200F51DBF /* MyStopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyStopViewController.m; path = Classes/MyStopViewController.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CTA-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CTA-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		CBE49835136F8614004CC10D /* 1304383097_Refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1304383097_Refresh.png; sourceTree = "<group>"; };
+		CBE49837136F86DA004CC10D /* 1304383280_Add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1304383280_Add.png; sourceTree = "<group>"; };
+		CBE4983C136F88DB004CC10D /* Direction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Direction.h; sourceTree = "<group>"; };
+		CBE4983D136F88DB004CC10D /* Direction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Direction.m; sourceTree = "<group>"; };
+		CBE4983F136F88DC004CC10D /* MyStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyStop.h; sourceTree = "<group>"; };
+		CBE49840136F88DC004CC10D /* MyStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyStop.m; sourceTree = "<group>"; };
+		CBE49842136F8A6A004CC10D /* Master.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Master.h; sourceTree = "<group>"; };
+		CBE49843136F8A6A004CC10D /* Master.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Master.m; sourceTree = "<group>"; };
+		CBE49845136F94B0004CC10D /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
+		CBE49846136F94B1004CC10D /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Route.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,8 +221,8 @@
 		3BC6DBDE1364AE9D00364C8C /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				3BC6DBC41364AC1100364C8C /* gnome_view_refresh.png */,
-				3BC6DBC11364AB1500364C8C /* plus.png */,
+				CBE49837136F86DA004CC10D /* 1304383280_Add.png */,
+				CBE49835136F8614004CC10D /* 1304383097_Refresh.png */,
 				3B1BE900135D573500EE5CD9 /* 2009_01_01_CTA.jpg */,
 			);
 			name = Images;
@@ -234,17 +231,15 @@
 		3BF9B2F5136370BC00F51DBF /* Model Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3BC6DC4D1364C94E00364C8C /* Master.h */,
-				3BC6DC4E1364C94E00364C8C /* Master.m */,
-				3BC6DC3B1364C06D00364C8C /* Direction.h */,
-				3BC6DC3C1364C06D00364C8C /* Direction.m */,
 				2819305F112F816700ECF9B4 /* CTA.xcdatamodeld */,
-				3BC6DC2F1364BFA900364C8C /* MyStop.h */,
-				3BC6DC301364BFA900364C8C /* MyStop.m */,
-				3BC6DC311364BFA900364C8C /* Stops.h */,
-				3BC6DC321364BFA900364C8C /* Stops.m */,
-				3BC6DC351364BFA900364C8C /* Route.h */,
-				3BC6DC361364BFA900364C8C /* Route.m */,
+				CBE49845136F94B0004CC10D /* Route.h */,
+				CBE49846136F94B1004CC10D /* Route.m */,
+				CBE49842136F8A6A004CC10D /* Master.h */,
+				CBE49843136F8A6A004CC10D /* Master.m */,
+				CBE4983F136F88DC004CC10D /* MyStop.h */,
+				CBE49840136F88DC004CC10D /* MyStop.m */,
+				CBE4983C136F88DB004CC10D /* Direction.h */,
+				CBE4983D136F88DB004CC10D /* Direction.m */,
 			);
 			name = "Model Classes";
 			sourceTree = "<group>";
@@ -289,7 +284,11 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CTA" */;
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -311,8 +310,8 @@
 				3B1BE8CB135D402600EE5CD9 /* StopDetailHeader.xib in Resources */,
 				3B1BE901135D573500EE5CD9 /* 2009_01_01_CTA.jpg in Resources */,
 				3BF9B62413639E7600F51DBF /* MyStopTableView.xib in Resources */,
-				3BC6DBC21364AB1500364C8C /* plus.png in Resources */,
-				3BC6DBC51364AC1100364C8C /* gnome_view_refresh.png in Resources */,
+				CBE49836136F8614004CC10D /* 1304383097_Refresh.png in Resources */,
+				CBE49838136F86DA004CC10D /* 1304383280_Add.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,11 +336,10 @@
 				3BF9B3B71363820600F51DBF /* StopDetail.m in Sources */,
 				3BF9B62813639F3200F51DBF /* MyStopViewController.m in Sources */,
 				3BC6DBE41364B0D000364C8C /* ScheduleError.m in Sources */,
-				3BC6DC371364BFA900364C8C /* MyStop.m in Sources */,
-				3BC6DC381364BFA900364C8C /* Stops.m in Sources */,
-				3BC6DC3A1364BFA900364C8C /* Route.m in Sources */,
-				3BC6DC3D1364C06D00364C8C /* Direction.m in Sources */,
-				3BC6DC4F1364C94E00364C8C /* Master.m in Sources */,
+				CBE4983E136F88DB004CC10D /* Direction.m in Sources */,
+				CBE49841136F88DC004CC10D /* MyStop.m in Sources */,
+				CBE49844136F8A6A004CC10D /* Master.m in Sources */,
+				CBE49847136F94B1004CC10D /* Route.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,7 +356,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CTA_Prefix.pch;
 				INFOPLIST_FILE = "CTA-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = CTA;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -370,7 +370,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CTA_Prefix.pch;
 				INFOPLIST_FILE = "CTA-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = CTA;
+				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

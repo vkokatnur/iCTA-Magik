@@ -11,19 +11,17 @@
 #define kStopNameTag 1
 #define kRouteId 2
 
+@class Route;
+
 @interface AllStopsViewController : UITableViewController<UITableViewDelegate,UITableViewDataSource> {
 
-	@private
-		NSString *routeId;
-	@private
-		NSString *direction;
+    Route *route;
 	
 	NSArray *stopsName;
 	NSArray *stopsId;
 	UITableViewCell *displayCell;
 }
-@property(nonatomic,retain) NSString *routeId;
-@property(nonatomic,retain) NSString *direction;
+@property(nonatomic,retain) Route *route;
 
 @property(nonatomic,retain) IBOutlet UITableViewCell *displayCell;
 @property(nonatomic,retain) NSArray *stopsName;

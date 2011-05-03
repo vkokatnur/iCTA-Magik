@@ -7,16 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Route.h"
 
 @interface BusLookUpViewController : UIViewController<UIActionSheetDelegate>{
 
 	UITextField *field;
 	UIButton *goBtn;
-	NSArray *directions;
+	Route *route;
 
 }
 
-@property(nonatomic,retain) NSArray *directions;
+@property(nonatomic,retain) Route *route;
 @property(nonatomic,retain) IBOutlet UIButton *goBtn;
 
 @property(nonatomic,retain) IBOutlet UITextField *field;

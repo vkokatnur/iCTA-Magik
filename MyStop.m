@@ -1,17 +1,19 @@
-// 
+//
 //  MyStop.m
 //  CTA
 //
-//  Created by Vj on 4/24/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Created by Vijay Kokatnur on 5/2/11.
+//  Copyright (c) 2011 Nistantrii. All rights reserved.
 //
 
 #import "MyStop.h"
 
 
-@implementation MyStop 
-
+@implementation MyStop
 @dynamic name;
-@dynamic stop;
+@dynamic stopId;
+@dynamic stopName;
+@dynamic routeId;
+@dynamic direction;
 
 @end

@@ -60,30 +60,6 @@
 	[self.tableView reloadData];
 }
 
-
-/*
-- (void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
-}
-*/
-/*
-- (void)viewWillDisappear:(BOOL)animated {
-    [super viewWillDisappear:animated];
-}
-*/
-/*
-- (void)viewDidDisappear:(BOOL)animated {
-    [super viewDidDisappear:animated];
-}
-*/
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-*/
- 
 - (NSFetchedResultsController *)fetchedResultsController {
     // Set up the fetched results controller if needed.
     if (fetchedResultsController == nil) {
@@ -104,7 +80,7 @@
         NSFetchedResultsController *aFetchedResultsController = [[NSFetchedResultsController alloc] 
 																 initWithFetchRequest:fetchRequest 
 																					managedObjectContext:managedObjectContext sectionNameKeyPath:nil 
-																											   cacheName:@"Root"];
+																											   cacheName:nil];
         aFetchedResultsController.delegate = self;
         self.fetchedResultsController = aFetchedResultsController;
         
@@ -157,58 +133,16 @@
     MyStop *stop = (MyStop *)[fetchedResultsController objectAtIndexPath:indexPath];
     
 	UILabel *routelbl = (UILabel *)[cell.contentView viewWithTag:kRouteIdTag];
-	//routelbl.text=stop.routeId;
+	routelbl.text=stop.routeId;
 	
 	UILabel *stoplbl = (UILabel *)[cell.contentView viewWithTag:kStopNameTag];
-	//stoplbl.text=stop.stopName;
+	stoplbl.text=stop.stopName;
 	
 	UILabel *dirlbl = (UILabel *)[cell.contentView viewWithTag:kDirectionTag];
-	//dirlbl.text=stop.direction;
-	
-
+    dirlbl.text=stop.direction;
 	
 	return cell;
 }
-
-
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:YES];
-    }   
-    else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
 
 
 #pragma mark -
@@ -219,17 +153,6 @@
 	StopDetailViewController *detailViewController = [[StopDetailViewController alloc] initWithStyle:UITableViewStyleGrouped];
 	
 	MyStop *stop = (MyStop *)[fetchedResultsController objectAtIndexPath:indexPath];
-	
-	StopDetail *detail = [[StopDetail alloc] init];
-	
-	//detail.routeId = stop.routeId;	
-	//detail.direction =stop.direction;
-	
-	//detail.stopId = [stop.stopId intValue];
-	//detail.stopName = stop.stopName;
-	
-	detailViewController.stopDetail = detail;
-	[detail release];
 	
     [self.navigationController pushViewController:detailViewController animated:YES];
 	[detailViewController release];

@@ -10,44 +10,46 @@
 #import "AllStopsViewController.h"
 #import "CTAWebService.h"
 #import "AllRoutesViewController.h"
+#import "Route.h"
+#import "Direction.h"
 
 @implementation BusLookUpViewController
 
 @synthesize goBtn;
 @synthesize field;
-@synthesize directions;
+@synthesize route;
 
 -(IBAction)findStopsForKnownRoute{
 	[field resignFirstResponder];
 	
 	CTAWebService *service = [CTAWebService sharedInstance];
-	NSArray *fdirections = [service busDirectionForRoute:field.text];
-	self.directions = fdirections;
-	[fdirections release];
-	
+    Route *selRoute =(Route *) [service initiateFetchFor:@"Route" forKey:@"routeNumber" andValue:field.text];
+	self.route = selRoute;
+    
 	// open a dialog with two custom buttons
 	UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:@"Choose Bus Direction"
-															 delegate:self cancelButtonTitle:nil destructiveButtonTitle:nil
+															 delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil
 													otherButtonTitles:nil];
+	
 	actionSheet.actionSheetStyle = UIActionSheetStyleBlackTranslucent;
-	actionSheet.destructiveButtonIndex = 2;
-	[actionSheet addButtonWithTitle:[directions objectAtIndex:0]];
-	[actionSheet addButtonWithTitle:[directions objectAtIndex:1]];
-	[actionSheet addButtonWithTitle:@"Cancel"];
-	[actionSheet showInView:self.view]; // show from our table view (pops up in the middle of the table)
+	for (int i=0; i<[[selRoute.directions allObjects]  count]; i++) {
+		Direction *dir = [[selRoute.directions allObjects] objectAtIndex:i];
+		[actionSheet addButtonWithTitle:dir.bound];
+	}
+	
+	[actionSheet showInView:self.view];
 	[actionSheet release];
 	
 }
 
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
 {
-	if(buttonIndex != 2 ) {
-	AllStopsViewController *viewController =[[AllStopsViewController alloc] initWithStyle:UITableViewStylePlain];
-	
-	viewController.routeId = field.text;
-	viewController.direction = [self.directions objectAtIndex:buttonIndex];
-	[self.navigationController pushViewController:viewController animated:YES];
-	[viewController release];
+	if(buttonIndex != 0 ) {
+        AllStopsViewController *viewController =[[AllStopsViewController alloc] initWithStyle:UITableViewStylePlain];
+        self.route.mainDirection = [[self.route.directions allObjects] objectAtIndex:buttonIndex - 1];
+        viewController.route = self.route;
+        [self.navigationController pushViewController:viewController animated:YES];
+        [viewController release];
 	}
 }
 
@@ -86,6 +88,7 @@
 - (void)dealloc {
 	[self.goBtn release];
 	[self.field release];
+    [self.route release];
     [super dealloc];
 }
 

@@ -13,8 +13,7 @@
 
 @implementation AllStopsViewController
 
-@synthesize routeId;
-@synthesize direction;
+@synthesize route;
 
 @synthesize displayCell;
 @synthesize stopsName;
@@ -24,10 +23,10 @@
     [super viewDidLoad];
 	
 	CTAWebService *service = [CTAWebService sharedInstance];
-	NSDictionary *allRoutes = [service busStopsForRoute:routeId andDirection:direction];
+	NSDictionary *allRoutes = [service busStopsForRoute:route.routeNumber andDirection:route.mainDirection];
 	self.stopsName = [allRoutes allValues];
 	self.stopsId = [allRoutes allKeys];
-	self.title = [NSString stringWithFormat:@"Route %@",routeId];
+	self.title = [NSString stringWithFormat:@"Route %@",route.routeNumber];
 	}
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -42,7 +41,7 @@
 }
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
-	NSString *sectionTitle = [NSString stringWithFormat:@"Direction : %@", direction];
+	NSString *sectionTitle = [NSString stringWithFormat:@"Direction : %@", route.mainDirection];
 	return sectionTitle;
 }
 
@@ -70,8 +69,8 @@
 	StopDetailViewController *detailViewController = [[StopDetailViewController alloc] initWithStyle:UITableViewStyleGrouped];
 	StopDetail *detail = [[StopDetail alloc] init];
 	
-	detail.routeId = self.routeId;	
-	detail.direction =self.direction;
+	detail.routeId = self.route.routeNumber;	
+	detail.direction =self.route.mainDirection;
 
 	NSUInteger row = [indexPath row];
 	detail.stopId = [[stopsId objectAtIndex:row] intValue];
