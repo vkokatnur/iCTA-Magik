@@ -51,7 +51,6 @@
 
 - (NSFetchedResultsController *)fetchedResultsController {
     
-    [[CTAWebService sharedInstance] initRoutes];
     // Set up the fetched results controller if needed.
     if (fetchedResultsController == nil) {
         // Create the fetch request for the entity.

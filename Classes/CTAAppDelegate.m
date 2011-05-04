@@ -7,6 +7,7 @@
 //
 
 #import "CTAAppDelegate.h"
+#import "CTAWebService.h"
 
 @implementation CTAAppDelegate
 
@@ -40,6 +41,7 @@
         [masterRec release];
         
     }
+    [[CTAWebService sharedInstance] initRoutes];
     // Override point for customization after application launch.
 	[window addSubview:rootController.view];
     [window makeKeyAndVisible];
